@@ -1,0 +1,466 @@
+
+
+
+
+
+
+/* 
+**
+**  Buttons Stuff 
+**
+*/
+
+
+
+.btn {
+
+  font-size: 18px;
+
+  background-color: transparent;
+
+  border-color: $dark;
+  border-width: 2px;
+  border-style: solid;
+
+  color: $dark; 
+
+  [class*="section-"] & { 
+    color: white;
+    border-color: white;
+
+    &:hover, &:focus {
+      background-color: white;
+      border-color: white;
+      color: $dark;
+    }
+
+    &.inverse {
+      background-color: white;
+      &:hover, &:focus {
+        color: white!important;
+        background-color: transparent;
+      }
+    }
+  }
+  
+  transition: background-color .3s, color .3s;
+
+  &:hover, &:focus {
+    background-color: $dark;
+    border-color: $dark;
+    color: white;
+  }
+
+  &.inverse {
+    background-color: $dark;
+    &:hover, &:focus {
+      color: $dark;
+      background-color: transparent;
+    }
+  }
+
+  &:not(.btn-circle) > i {
+    font-size: 1.2em;
+    vertical-align: bottom;
+    margin-left: 15px;
+  }
+
+  &:hover, &:focus, &:active, &:focus:active, &.focus {  
+    outline:0; 
+    box-shadow: none;
+  }
+
+}
+
+.btn-lg {
+  font-size: 24px;
+  padding: 15px 25px;
+}
+
+.btn-sm {
+  font-size: 14px;
+}
+
+.btn-xs {
+  font-size: 12px;
+}
+
+
+
+
+
+
+
+
+@each $btn in $bs-btns {
+  
+  .btn-#{nth($btn, 1)} {
+
+    color: nth($btn, 2);
+    border-color: nth($btn, 2);
+
+    &:hover, &:focus {
+      background-color: nth($btn, 2);
+      border-color: nth($btn, 2);
+    }
+
+    &.inverse {
+      background-color: nth($btn, 2);
+      
+      &:hover, &:focus {
+        color: nth($btn, 2)!important;
+      }
+
+    }
+  }
+
+}
+
+
+
+
+
+
+
+
+/* 
+**
+**  Nav Stuff 
+**
+*/
+
+.navbar {
+  .container { position: relative; }
+  width: 100%;
+  height: 57px;
+  background-color: $dark;
+  transition: background-color .3s;
+  
+  &.transp { background-color: rgba(0,0,0,0.3); }
+  
+  a {
+    font-size: 17px;
+    color:white;
+    height: 57px;
+    background-color: transparent;
+  }
+}
+
+.nav {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.nav > li > a { 
+  padding: 15px 16px;
+  letter-spacing: 0.5px;
+}
+.nav .social a { padding: 19px 3px; }
+
+.nav-pills > li > a:hover,
+.nav-pills > li > a:focus,
+.nav-pills > li.active > a, 
+.nav-pills > li.active > a:hover, 
+.nav-pills > li.active > a:focus {
+  background-color: transparent;
+  color:#efd645;
+}
+
+.main-version {
+  font-size: 12px;
+  color: rgba(white,.75);
+  display: inline-block;
+  vertical-align: text-bottom;
+  margin-bottom: -3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+**
+**  Spacing Helpers Stuff 
+**
+*/
+
+
+$max: 5;
+$const : 0.5rem; // i.e 1:5px, 2:10px, 3:20px, 4:40px based on bootstrap initialization html
+
+@for $i from 0 through $max {
+  
+  $value : pow(2,$i - 1) * $const;
+
+  @if( $i > 0 ){
+
+    // Margin
+    .m#{$i}   { margin:        $value; }
+    .mt#{$i}  { margin-top:    $value; }
+    .mr#{$i}  { margin-right:  $value; }
+    .mb#{$i}  { margin-bottom: $value; }
+    .ml#{$i}  { margin-left:   $value; }
+    
+    // Negative x Margin
+    .mxn#{$i} { margin-left:   -$value; }
+
+    // Padding
+    .p#{$i}   { padding:      $value; }
+    .py#{$i}  { padding-top:  $value; padding-bottom:   $value; }
+    .px#{$i}  { padding-left: $value; padding-right:    $value; }
+
+    .p#{$i}   { padding:        $value; }
+    .pt#{$i}  { padding-top:    $value; }   
+    .pr#{$i}  { padding-right:  $value; }   
+    .pb#{$i}  { padding-bottom: $value; }   
+    .pl#{$i}  { padding-left:   $value; }
+
+    // Overrides
+    .mt-#{$i*5} { margin-top: $i*5px; }
+    .mr-#{$i*5} { margin-right: $i*5px; }
+    .mb-#{$i*5} { margin-bottom: $i*5px; }
+    .ml-#{$i*5} { margin-left: $i*5px; }
+
+
+  } @else {
+    .m#{$i}   { margin:        0 }
+    .mt#{$i}  { margin-top:    0 }  
+    .mr#{$i}  { margin-right:  0 }  
+    .mb#{$i}  { margin-bottom: 0 }  
+    .ml#{$i}  { margin-left:   0 }  
+
+    .p#{$i}   { padding:        0 }
+    .pt#{$i}  { padding-top:    0 }   
+    .pr#{$i}  { padding-right:  0 }   
+    .pb#{$i}  { padding-bottom: 0 }   
+    .pl#{$i}  { padding-left:   0 }   
+  } // @if
+
+  @if( $i > 4 ){
+    @media (max-width: 768px) {
+      
+      .px#{$i}  { padding-left: 2rem; padding-right: 2rem; }
+
+    }
+  }
+
+} // @for
+
+
+
+@for $i from 1 through 11 {
+  .mt-#{$i*10} { margin-top: $i*10px;}
+  .mb-#{$i*10} { margin-bottom: $i*10px;}
+  .pt-#{$i*10} { padding-top: $i*10px;}
+  .pb-#{$i*10} { padding-bottom: $i*10px;}
+}
+
+
+// Specific helpers/overrides for this template
+
+
+
+
+
+$minFont : 10;
+$maxFont : 20;
+
+@for $i from $minFont through $maxFont {
+  .fz-#{$i}{
+    font-size: $i * 1px;
+  }
+}
+
+@for $i from 1 through 20 {
+  .w-#{$i*5}{
+    width: $i * 5%;
+  }
+}
+
+.em-0-5 { font-size: 0.5em; }
+.em-0-25 { font-size: 0.25em; }
+.em-0-75 { font-size: 0.75em; }
+.em-1-5 { font-size: 1.5em; }
+.em-1-25 { font-size: 1.25em; }
+.em-1-75 { font-size: 1.75em; }
+.em-2 { font-size: 2em; }
+.em-2-5 { font-size: 2.5em; }
+.em-3 { font-size: 3em; }
+.em-3-5 { font-size: 3.5em; }
+.em-4 { font-size: 4em; }
+
+.em-5 { font-size: 5em; }
+.em-7-5 { font-size: 7.5em; }
+
+.em-10 { font-size: 10em; }
+.em-20 { font-size: 20em; }
+
+
+.lh-0-5 { line-height: 0.5em; }
+.lh-0-25 { line-height: 0.25em; }
+.lh-0-75 { line-height: 0.75em; }
+.lh-1 { line-height: 1; }
+.lh-1-5 { line-height: 1.5em; }
+.lh-1-25 { line-height: 1.25em; }
+.lh-1-75 { line-height: 1.75em; }
+.lh-2 { line-height: 2em; }
+.lh-2-5 { line-height: 2.5em; }
+.lh-3 { line-height: 3em; }
+.lh-3-5 { line-height: 3.5em; }
+.lh-4 { line-height: 4em; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+**
+**  Mobile Nav Button 
+**
+*/
+
+
+$button-size : 20px;
+
+@mixin line {
+  display: inline-block;
+  width: $button-size;
+  height: 2px;
+  background-color: white;
+  transition: 150ms;
+}
+ 
+.mobile-btn {
+  display: inline-block;
+  transition: .3s;
+  cursor: pointer;
+  user-select: none;
+  background: none;
+  border:none;
+  position: absolute;
+  z-index: 99;
+  top: 5px;
+  right: 12px;
+  display: none;
+  &:active, &:focus { outline: none; }
+}
+
+
+.lines {
+  @include line;
+  position: relative; 
+  
+  &:before, &:after { 
+    @include line;
+    position: absolute;
+    left:0;
+    content: '';
+    transform-origin: 50% 50%;
+    transition: top 150ms 250ms ease, transform 150ms ease;
+  }
+  &:before { top: $button-size/4; }
+  &:after { top: -$button-size/4; }
+  transition: background 150ms 250ms ease;
+
+}
+
+.mobile-btn.x .lines{
+    background: transparent;
+    &:before, &:after{
+      transition: top 250ms ease, transform 150ms 250ms ease;      
+      top:0;
+      width: $button-size;
+    }
+    &:before{ transform: rotate3d(0,0,1,45deg); }
+    &:after{  transform: rotate3d(0,0,1,-45deg); }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+**
+**  Loading Stuff 
+**
+*/
+
+
+#loading {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba($dark,.94);
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  transition: opacity .5s;
+  &.loaded {
+    opacity: 0;
+    .loader { transform:translate(-50%,-100%); }
+  }
+
+  .loader {
+    width: 5vw;
+    padding: .3vw;
+    position: absolute;
+    left: 50%; top: 50%;
+    transform:translate(-50%,-50%);
+    transition: transform .5s;
+    * { 
+      animation: dash-fade-in 2s cubic-bezier(0.6,0,0.4,1) alternate infinite forwards; 
+      fill-opacity:0; stroke-dasharray: 3000; stroke-dashoffset: 3000;
+      stroke:#EFD644;
+    }
+  }
+}
+
+
+
+@keyframes dash-fade-in {
+  50% { 
+    fill-opacity:0;
+    stroke-opacity: 1; 
+  }
+  100% {
+    stroke-opacity: 0; 
+    fill-opacity:1;
+    stroke-dashoffset: 0;
+  }
+}

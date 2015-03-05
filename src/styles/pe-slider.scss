@@ -1,0 +1,177 @@
+/*
+  
+
+   ____  ____  _  _  ____  ____  ____  _  _ 
+  (  _ \(_  _)( \/ )( ___)(  _ \( ___)( \( )
+  )___/ _)(_  )  (  )__)  )(_) ))__)  )  ( 
+  (__)  (____)(_/\_)(____)(____/(____)(_)\_)
+
+  Pe-slider v 0.7 :: Styles relatives to the pe-slider.js script
+
+
+*/
+
+
+.pe-slider-wrapper {
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  overflow: hidden; // Added to control well measures
+}
+
+.pe-slides {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  li {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    transform: translateX(100%);
+    transition-property: transform, opacity;
+    transition-duration: .3s, .3s;
+    transition-delay: 100ms, 0;
+    transition-timing-function: cubic-bezier(0.4,0,0.2,1);
+    
+    &.selected {
+      position: relative;
+      z-index: 2;
+      transform: translateX(0);
+    }
+    &.past {
+      transform: translateX(-100%);
+    }
+
+    // img { display: block; width: 100%; }
+    // video { width: 100% !important; display: block; height: auto !important; }
+    
+    // New class to add to elements wanted to cover the entire space (width)
+    // This replaces the generic declarations in the two lines before (commented)
+
+    .full-slide {
+      width: 100% !important;
+      height: auto !important;
+      display: block;
+    }
+  }
+
+}
+
+.pe-slider-nav{
+  .no-nav & { display: none; }
+  list-style: none;
+  z-index: 9999;
+  li {
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: auto;
+    
+    a {
+      display: block;
+      width: 48px;
+      height: 48px;
+      overflow: hidden;
+      border-top:1px solid #c6baba;
+      border-right:1px solid #c6baba;
+      transition: opacity .3s;
+      transform: rotate(45deg);
+      &.inactive, .nav-hover & {
+        opacity: 0;
+        visibility: hidden;
+      }
+      .nav-hover:hover & { opacity: 1; visibility: visible; }
+    }
+    &:first-child { 
+      left: 30px;
+      a { transform: rotate(-135deg); }
+    }
+    &:last-child { right: 30px; }
+  }
+}
+
+.pe-slider-pag {
+  .no-pag & { display: none; }
+  position: absolute;
+  padding: 0;
+  z-index: 2;
+  bottom:30px;
+  left: 50%;
+  right: auto;
+  transform:translateX(-50%);
+  li {
+    display: inline-block;
+    float: left;
+    margin: 0 5px;
+    &.selected a { background-color: #c6baba; }
+  }
+  a {
+    display: block;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    border:2px solid #c6baba;
+    overflow: hidden;
+    text-indent: -9999px;
+    white-space: nowrap;
+  }
+}
+
+
+
+
+
+
+
+
+/*
+  
+  Alternative effects :: in progress...
+
+*/
+
+.pe-slides {
+
+  &.pe-slider__scale {
+    perspective: 600px;
+    li {
+      transform: scale(2) translateZ(-200px);
+      opacity: 0;
+      &.selected {
+        transform: scale(1) translateZ(0);
+        opacity: 1;
+      }
+      &.past {
+        transform: scale(0.9) translateZ( 200px );
+        opacity: 0;
+      }
+    } // li
+  } // scale
+
+  &.pe-slider__flip {
+    perspective: 600px;
+    li {
+      transform-origin: center bottom;
+      transform: rotateX(90deg);
+      opacity: 0;
+      &.selected {
+        transform: rotateX(0deg);
+        opacity: 1;
+      }
+      &.past {
+        transform: rotateX(-90deg);
+        opacity: 0;
+      }
+    } // li
+  } // flip
+
+}

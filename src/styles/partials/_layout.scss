@@ -1,0 +1,208 @@
+
+
+
+
+
+
+
+
+
+/* 
+**
+**  Sections Stuff
+**
+*/
+
+
+.section {
+  overflow: hidden;
+  position: relative;
+  padding: 70px 0;
+  background-color: #fff;
+
+  &.first { padding-top: 130px; }
+
+}
+
+@include coloring($colors, section-, false) {
+  
+
+}
+
+
+
+
+/* Section Background specific */
+
+
+.section-background {
+  background-size: cover;
+  background-position: center center;
+  &.fixed { background-attachment: fixed; z-index: 90; }
+}
+
+
+.parallax { 
+  overflow: hidden; 
+  z-index: 1;
+
+  .parallaxing {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  &.h-2x .parallaxing {
+    height: 200vh;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* 
+**
+**  Typo Stuff
+**
+*/
+
+
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 { 
+  font-family: 'Aileron-Regular';
+}
+
+h1, .h1 { font-size: 48px; }
+h2, .h2 { font-size: 39px; }
+h3, .h3 { font-size: 32px; }
+h4, .h4 { font-size: 27px; }
+h5, .h5 { font-size: 22px; }
+
+.super-h { font-size: 54px; }
+
+.subtitle { 
+  font-size: 36px; 
+
+  i { 
+    font-size: 1.66em; margin-right: .33em; }
+}
+
+
+.h-light { font-family: 'Aileron-Light'; }
+.h-regular { font-family: 'Aileron-Regular'; }
+.h-semibold { font-family: 'Aileron-SemiBold'; }
+.h-bold { font-family: 'Aileron-Bold'; }
+.h-black { font-family: 'Aileron-Black'; }
+.h-heavy { font-family: 'Aileron-Heavy'; }
+
+.text-regular { font-family: 'Cabin-Regular';}
+.text-medium { font-family: 'Cabin-Medium'; }
+.text-bold { font-family: 'Cabin-Bold'; }
+
+.text-normalcase { text-transform: none; }
+.text-uppercase { text-transform: uppercase; }
+
+.text-truncate {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+
+a {
+  color:currentColor;
+  
+  &:hover, &:focus { 
+    color:currentColor; }
+
+  &:active, &:focus { 
+    outline:0 }
+}
+
+
+hr {
+  position: relative;
+  color: inherit;
+  width: 120px;
+  border-top: 1px solid;
+}
+
+
+@include coloring($colors, color-, false) {
+  color: $color;
+}
+
+
+input[placeholder] { text-overflow: ellipsis; }
+::-moz-placeholder { text-overflow: ellipsis; } /* firefox 19+ */
+input:-moz-placeholder { text-overflow: ellipsis; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+**
+**  Slider Specific Stuff 
+**
+*/
+
+
+.slider_elem {
+  position: absolute;
+}
+
+
+
+
+// Pe-slider overrides
+
+
+
+
+
+
+
+
+
+

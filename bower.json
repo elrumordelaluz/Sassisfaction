@@ -1,5 +1,5 @@
 {
-  "name": "Pixeden template",
+  "name": "TemplateInit",
   "private": true,
   "dependencies": {
     "jquery": "~2.1.3",

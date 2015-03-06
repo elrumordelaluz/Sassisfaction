@@ -17,7 +17,25 @@ var gulp = require('gulp'),
     jade = require('gulp-jade'),
     marked = require('marked'),
     mainBowerFiles = require('main-bower-files'),
-    gulpFilter = require('gulp-filter');
+    gulpFilter = require('gulp-filter'),
+
+    fs = require("fs");
+
+
+
+function readWriteAsync(file) {
+  fs.readFile(file, 'utf-8', function(err, data){
+    if (err) throw err;
+
+    var newValue = data.replace(/<\s*p[^>]*>(.*?)<\s*\/\s*p>/g, '<p>Hi, <br>see your <code>dist</code> proyect <a href="dist/index.html">here</a></p>');
+
+    fs.writeFile(file, newValue, 'utf-8', function (err) {
+      if (err) throw err;
+      console.log('index.html proyect rewritten');
+    });
+  });
+}
+
 
 gulp.task('styles', function(){
   return sass('src/styles/', 
@@ -72,8 +90,12 @@ gulp.task('copy-fonts', function(){
         .pipe(gulp.dest('dist/assets/fonts/'));
 });
 
+gulp.task('firstIndex', function(){
+  readWriteAsync('index.html');
+});
+
 gulp.task('default', ['clean'], function() {
-    gulp.start('libs', 'templates', 'styles', 'scripts', 'images', 'copy-fonts');
+    gulp.start('libs', 'templates', 'styles', 'scripts', 'images', 'copy-fonts', 'firstIndex');
 });
 
 gulp.task('watch', function(){

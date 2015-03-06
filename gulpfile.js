@@ -67,8 +67,13 @@ gulp.task('clean', function(cb) {
     del(['dist/assets/css', 'dist/assets/js', 'dist/assets/img'], cb)
 });
 
+gulp.task('copy-fonts', function(){
+    return gulp.src('src/fonts/*.*')
+        .pipe(gulp.dest('dist/assets/fonts/'));
+});
+
 gulp.task('default', ['clean'], function() {
-    gulp.start('libs', 'templates', 'styles', 'scripts', 'images');
+    gulp.start('libs', 'templates', 'styles', 'scripts', 'images', 'copy-fonts');
 });
 
 gulp.task('watch', function(){
@@ -84,6 +89,9 @@ gulp.task('watch', function(){
 
   // Watch image files
   gulp.watch('src/images/**/*', ['images']);
+
+  // Watch font files
+  gulp.watch('src/fonts/**/*', ['copy-fonts']);
 
   // Create LiveReload server
   livereload.listen();

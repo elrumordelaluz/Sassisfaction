@@ -63,7 +63,12 @@ gulp.task('scripts', function(){
 
 gulp.task('images', function(){
   return gulp.src('src/images/**/*')
-              .pipe(imagemin({ optimizationLevel:3, progressive: true, interlaced:true }))
+              .pipe(imagemin({ 
+                optimizationLevel:3, 
+                progressive: true, 
+                interlaced:true,
+                svgoPlugins: [{cleanupIDs: false}]
+                }))
               .pipe(gulp.dest('dist/assets/img'))
               .pipe(notify({ message: 'Images task complete!'}));
 });

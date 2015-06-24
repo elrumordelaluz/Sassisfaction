@@ -1,13 +1,13 @@
-@import "modules/all";
+@import 'modules/all';
 
 html { 
-  font-size:1em;
-  line-height:1.5;
+  font-size: 1em;
+  line-height: 1.5;
 }
 
 body {  
-  background-color: white;
-  color: #454545;
-  font-family:Arial, Helvetica, 'sans';
+  background-color: $light;
+  color: $dark;
+  font-family: 'PT Sans', sans-serif;
   font-size: $intial-fz;
 }

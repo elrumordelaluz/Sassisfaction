@@ -3,38 +3,21 @@ html
   head
     meta(name='viewport', content='width=device-width, initial-scale=1.0')
     meta(charset='UTF-8')
-    title Ebook App Template :: Pixeden
+    title Sassisfaction :: Awesome resources
     link(rel='icon', type='image/png', sizes='32x32', href='img/favicon.png') 
-
-    link(rel='stylesheet', href='assets/libs/bootstrap/dist/css/bootstrap.css')
-    //- link(rel='stylesheet', href='assets/libs/prism/prism.css')
-    link(rel='stylesheet', href='assets/css/pe-slider.css')
-    
-    //- link(rel='stylesheet', href='assets/fonts/url-to-icon-font/css/icon-font.css')
+    link(href='http://fonts.googleapis.com/css?family=PT+Sans:400,700',rel='stylesheet',type='text/css')
+    link(href='http://fonts.googleapis.com/css?family=Roboto:400,300,500',rel='stylesheet',type='text/css')
     
     link(rel='stylesheet', href='assets/css/style.css')
   body
 
     block content
 
-
-    script.
-        var peLoader=function(){var e=function(e){config={loader:"#loading",removeTime:700};for(var o in e)e.hasOwnProperty(o)&&(config[o]=e[o]);var n,i=document.querySelector(config.loader),t=function(e){e.classList.add("loaded"),setTimeout(function(){document.body.removeChild(e)},config.removeTime)},r=function(){n=setTimeout(t(i),2e3)};i&&(window.addEventListener("load",r),i.addEventListener("click",function(){clearTimeout(n),t(i)}))};return{init:e}}();
-        peLoader.init();
-        
     // Livereload Script -- remove on production
     script.
       document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')
-    // Libs scripts
-    script(type='text/javascript', src='assets/libs/jquery/dist/jquery.js')
-    script(type='text/javascript', src='assets/libs/bootstrap/dist/js/bootstrap.js')
-    //- script(type='text/javascript', src='assets/libs/prism/prism.js')
-    script(type='text/javascript', src='assets/js/fontsmoothie.min.js')
-    // Pe Plugins
-    script(type='text/javascript', src='assets/js/pe-slider.min.js')
-    script(type='text/javascript', src='assets/js/pe-scrollchange.min.js')
-    script(type='text/javascript', src='assets/js/pe-navscroll.js')
     
+    script(type='text/javascript', src='assets/js/pe-scrollchange.min.js')
     script(type='text/javascript', src='assets/js/main.js')
 
     block scripts

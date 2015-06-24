@@ -1,42 +1,29 @@
 // Color variables
-$dark: #141316;
+$light: #f0f0f0;
+$dark: #666766;
+$pink: #c69;
+$white: #fff;
 $yellow: #efd645;
 $green: #92e1b2;
 $red: #ff4e57;
 
 // Colors list
 $colors: 
-  "red" $red,
-  "yellow" $yellow,
-  "green" $green,
-  "dark" $dark;
-
-// Bootstrap buttons colors list
-$bs-btns: 
-    "default" #fff,
-    "primary" #337ab7,
-    "success" #5cb85c,
-    "info" #5bc0de,
-    "warning" #f0ad4e,
-    "danger" #d9534f;
-
+  'red' $red,
+  'pink' $pink,
+  'yellow' $yellow,
+  'green' $green,
+  'dark' $dark;
 
 // Create a new list based on $colors for Components
 
 $color-list:();
 @for $i from 1 through length($colors) {
-  $color-list: append($color-list, '.btn-' + nth(nth($colors,$i),1) );
+  $color-list: append($color-list, '.btn-' + nth(nth($colors, $i), 1));
 }
 
-
-// Text Variables
 $intial-fz: 22px;
 
-
-
-// Control variables
-$slideResp: true;
-
-
+$container-width: 960px;
 
 

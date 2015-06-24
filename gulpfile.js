@@ -18,6 +18,9 @@ var gulp = require('gulp'),
     marked = require('marked'),
     mainBowerFiles = require('main-bower-files'),
     gulpFilter = require('gulp-filter'),
+    
+    browserify = require('gulp-browserify'),
+    reactify = require('reactify'),
 
     fs = require("fs");
 
@@ -49,16 +52,17 @@ gulp.task('styles', function(){
 });
 
 gulp.task('scripts', function(){
-  return gulp.src('src/scripts/**/*.js')
-              .pipe(changed('dist/assets/js'))
-              .pipe(jshint())
-              .pipe(jshint.reporter('jshint-stylish'))
-              //.pipe(concat('main.js'))
-              .pipe(gulp.dest('dist/assets/js'))
-              .pipe(rename({suffix: '.min'}))
-              .pipe(uglify())
-              .pipe(gulp.dest('dist/assets/js'))
-              .pipe(notify({ message: 'Scripts task complete!'}));
+  gulp.src('src/scripts/main.js')
+    .pipe(browserify({
+      insertGlobals: false,
+      debug: true,
+      transform: [reactify]
+    }))
+    .pipe(gulp.dest('./dist/assets/js'))
+    .pipe(rename({suffix: '.min'}))
+    .pipe(uglify())
+    .pipe(gulp.dest('dist/assets/js'))
+    .pipe(notify({ message: 'Scripts task complete!'}));
 });
 
 gulp.task('images', function(){
@@ -100,7 +104,7 @@ gulp.task('firstIndex', function(){
 });
 
 gulp.task('default', ['clean'], function() {
-    gulp.start('libs', 'templates', 'styles', 'scripts', 'images', 'copy-fonts', 'firstIndex');
+    gulp.start('templates', 'styles', 'scripts', 'images', 'copy-fonts', 'firstIndex');
 });
 
 gulp.task('watch', function(){
@@ -112,7 +116,7 @@ gulp.task('watch', function(){
   gulp.watch('src/styles/**/*.scss', ['styles']);
 
   // Watch .js files
-  gulp.watch('src/scripts/**/*.js', ['scripts']);
+  gulp.watch(['src/scripts/**/*.js', 'src/scripts/**/*.jsx'], ['scripts']);
 
   // Watch image files
   gulp.watch('src/images/**/*', ['images']);

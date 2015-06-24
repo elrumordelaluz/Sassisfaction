@@ -16,6 +16,7 @@
     "del": "^1.1.1",
     "gulp": "^3.8.11",
     "gulp-autoprefixer": "^2.1.0",
+    "gulp-browserify": "^0.5.1",
     "gulp-changed": "^1.1.1",
     "gulp-concat": "^2.4.3",
     "gulp-cssmin": "^0.1.6",
@@ -33,6 +34,8 @@
     "jshint-stylish": "^1.0.0",
     "main-bower-files": "^2.5.0",
     "marked": "^0.3.3",
+    "react": "^0.13.3",
+    "reactify": "^1.1.1",
     "svgo": "^0.5.0"
   },
   "devDependencies": {}

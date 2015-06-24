@@ -2,23 +2,103 @@ extends partials/mainLayout
 
 block content
 
-  section.section
+  header.header
     .container
-      .row
-        .col-md-12
-          p Hola
-            
+      .main-icon
+        svg
+          use(xlink:href='assets/img/symbols.svg#main-logo')
+        h1.big-title.text--truncate
+          span.color-pink Sass
+          | isfaction
+        p.copy awesome
+          span.color-pink re
+          | s
+          span.color-pink our
+          | c
+          span.color-pink e
+          | ss
+  
+  input(type='checkbox')#input-layout
+  label.items-layout(for='input-layout')
+    svg.layout-th
+      use(xlink:href='assets/img/symbols.svg#icon-th')
+    svg.layout-list
+      use(xlink:href='assets/img/symbols.svg#icon-list')
+  
+  section.section#items.row
+    .container
+      .items
+        .items__item.half
+          a(href='#0').item-image 
+            svg.alt-logo
+              use(xlink:href='assets/img/symbols.svg#alt-logo')
+          .item-content
+            h3.item-title  
+              a(href='#0') Resource title
+            p.item-desc Polycasts with Rob Dodson guide you through web development with Polymer, starting with using basic Polymer elements through to building a complete web app with routing and responsive elements.
+            .item-meta
+              .item-tags
+                a(href='#0') author
+                a(href='#0') news
+                a(href='#0') development
+                a(href='#0') bkjhkjhkh
+                a(href='#0') tag1
+                a(href='#0') tag1
+                a(href='#0') tag1
+                a(href='#0') tag1
+                a(href='#0') tag1
+
+              .item-links 
+                a(href='#0')
+                  svg
+                    use(xlink:href='assets/img/symbols.svg#icon-pin')
+                a(href='#0')
+                  svg
+                    use(xlink:href='assets/img/symbols.svg#icon-info')
+                a(href='#0')
+                  svg
+                    use(xlink:href='assets/img/symbols.svg#icon-link')
+        .items__item.half
+          .item-image 
+          .item-content
+            h3.item-title  Resource title
+            p.item-desc Polycasts with Rob Dodson guide you through web development with Polymer, starting with using basic Polymer elements through to building a complete web app with routing and responsive elements.      
+        
+        .items__item.half
+          .item-image 
+          .item-content
+            h3.item-title  Resource title
+            p.item-desc Polycasts with Rob Dodson guide you through web development with Polymer, starting with using basic Polymer elements through to building a complete web app with routing and responsive elements.      
+        
+  footer.footer
+
 
       
 
 block scripts
-
   script.
-    $(document).ready(function(){
+    document.addEventListener("DOMContentLoaded", function() {
+      
+      peScrollChange.init({
+        elem: '.header',
+        trigger: 300,
+        classesToChange: 'top'
+      })
 
-      // Init Background
-      addBg('.section-background'); 
+      var header = document.querySelector('.header');
 
-    }) // Ready
+      window.addEventListener('scroll', function(){
+        var opacityValue;
+        opacityValue = 1 - document.body.scrollTop / 315;
+        if(!header.classList.contains('top')) {
+          document.querySelector('.main-icon').style.opacity = opacityValue;
+        } else {
+          document.querySelector('.main-icon').style.opacity = 1;
+        }
+        
+      }, false);
+
+    });
+    
 
         

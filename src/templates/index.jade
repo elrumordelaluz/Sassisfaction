@@ -71,12 +71,28 @@ block content
             p.item-desc Polycasts with Rob Dodson guide you through web development with Polymer, starting with using basic Polymer elements through to building a complete web app with routing and responsive elements.      
         
   footer.footer
+    p Made with 
+      span ❤ 
+      |  and React by 
+      a(href='https://twitter.com/elrumordelaluz') elrumordelaluz
+    p 
+      a(href='#0') 
+        span Submit Resources 
+      | or 
+      a(href='#0') Issues
 
 
       
 
 block scripts
   script.
+    
+    var docElem = window.document.documentElement;
+    
+    function scrollY() {
+      return window.pageYOffset || docElem.scrollTop;
+    }
+
     document.addEventListener("DOMContentLoaded", function() {
       
       peScrollChange.init({
@@ -84,12 +100,14 @@ block scripts
         trigger: 300,
         classesToChange: 'top'
       })
-
+      
+      
       var header = document.querySelector('.header');
 
       window.addEventListener('scroll', function(){
         var opacityValue;
-        opacityValue = 1 - document.body.scrollTop / 315;
+        opacityValue = 1 - scrollY() / 315;
+        
         if(!header.classList.contains('top')) {
           document.querySelector('.main-icon').style.opacity = opacityValue;
         } else {

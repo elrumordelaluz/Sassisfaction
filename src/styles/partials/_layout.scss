@@ -13,7 +13,7 @@
   &__item {
     margin-bottom: 0;
     margin-top: 26px;
-    transition: .3s;
+    // transition: .3s;
   }
 }
 
@@ -52,10 +52,10 @@
 }
 
 .item-desc {
+  flex: 2;
   font-size: 14px;
   line-height: 1.5;
   margin-top: 10px;
-  flex: 2;
 }
 
 .item-meta {
@@ -70,9 +70,12 @@
   flex-wrap: wrap;
   max-width: 75%;
 
-  a {
+  button {
     background-color: $light;
-    font-size: 11px;
+    border: 0;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 10px;
     margin: 2px;
     padding: 3px 5px;
     text-transform: uppercase;
@@ -209,8 +212,17 @@ a {
 }
 
 .footer {
-  background-color: $dark;
-  min-height: 200px;
+  font-size: 13px;
+  line-height: 1.5;
+  padding: 20px;
+  text-align: center;
+
+  span { color: $pink; }
+
+  a:hover {
+    text-decoration: underline;
+    color: $pink;
+  }
 }
 
 
@@ -241,12 +253,14 @@ a {
   .top & {
     display: inline-block;
     margin: 20px auto;
-    text-align: left;
+    text-align: left;    
     transition: opacity .3s;
 
     svg {
       display: inline-block;
       height: 61px;
+      margin-left: 20px;
+      transform: translateX(0px);
       vertical-align: middle;
       width: 43px;     
     }
@@ -262,7 +276,7 @@ a {
   .top & {
     display: inline-block;
     font-size: 34px;
-    margin-left: 10px;
+    margin-left: -5px;
     vertical-align: middle;
   }
 }

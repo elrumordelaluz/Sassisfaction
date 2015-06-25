@@ -64,6 +64,13 @@ var Search = React.createClass({
 
   handleThatEvent: function(e){
     this.setState( {searchString: '#' + e.target.innerHTML } );
+    React.findDOMNode(this.refs.myTextInput).focus();
+  },
+
+  handleClear: function(e){
+    if (e.keyCode == 27) {
+      this.setState( {searchString:''} );
+    }
   },
 
   render: function() {
@@ -96,7 +103,7 @@ var Search = React.createClass({
             <svg className="search-icon" 
               dangerouslySetInnerHTML={{__html: "<use xlink:href='assets/img/symbols.svg#icon-search'/>"}}>
             </svg>
-            <input type="text" value={this.state.searchString} onChange={this.handleChange} placeholder="Search..." />
+            <input type="text" ref="myTextInput" value={this.state.searchString} onChange={this.handleChange} onKeyUp={this.handleClear} placeholder="Search..." />
           </label>
         </div>
           <div className='items'> 

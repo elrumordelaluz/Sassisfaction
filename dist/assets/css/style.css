@@ -345,6 +345,10 @@ a {
   color: #c69;
 }
 
+.twitter-share-button {
+  margin-top: 10px;
+}
+
 .color-red {
   color: #ff4e57;
 }

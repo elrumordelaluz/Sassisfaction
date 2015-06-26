@@ -1,0 +1,71 @@
+   [
+      {
+         "name":"Sass",
+         "url":"http://sass-lang.com/",
+         "description": "Sass is the most mature, stable, and powerful professional grade CSS extension language in the world.",
+         "tags":["framework"],
+         "image": "http://sass-lang.com/assets/img/illustrations/glasses-2087d741.svg"
+      },
+      {
+         "name":"Compass",
+         "url":"http://compass-style.org/",
+         "description": "Compass is an open-source CSS authoring framework which uses the Sass stylesheet language to make writing stylesheets powerful and easy. If you're not familiar with Sass, Go to sass-lang.com to learn all about how it works.",
+         "tags":["framework"],
+         "image": "http://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2015/02/1423617056compass.png"
+      },
+      {
+         "name":"The Sassway",
+         "url":"http://thesassway.com/",
+         "description": "The Sass Way covers the latest news and topics on handcrafting CSS with Sass and Compass. We use an open publishing model and rely on contributions from the Sass community via our GitHub project.",
+         "tags":["articles", "news"],
+         "image": "http://thesassway.com/images/thesassway.svg"
+      },
+      {
+         "name":"Bourbon",
+         "url":"http://bourbon.io/",
+         "description": "A simple and lightweight mixin library for Sass",
+         "tags":["library", "mixins"],
+         "image": "http://bourbon.io/images/shared/bourbon-logo@2x.png"
+      },
+      {
+         "name":"Susy",
+         "url":"http://susy.oddbird.net/",
+         "description": "In a world of agile development and super-tablet-multi-magic-laptop-phones, the best layouts can’t be contained in a single framework or technique. CSS Libraries are a bloated mess of opinions about how to do your job. Why let the table-saw tell you where to put the kitchen?",
+         "tags":["grids", "library"],
+         "image": "http://susy.oddbird.net/logo.png"
+      },
+      {
+         "name":"Modular Scale",
+         "url": "https://github.com/modularscale/modularscale-sass",
+         "description": "Sassy Modular Scale is a Sass-based mixin that calculates the incremental values of the modular scale in proportion to a set size and ratio. It was inspired by and adapted from Tim Brown's Modular Scale, and can be used as a Compass Extension or installed as a Ruby gem. Included are functions for a number of classic design and musical scale ratios, with the ability to add your own ratios, as well.",
+         "tags":["grids", "library"]
+      },
+      {
+         "name": "Bootstrap Sass",
+         "url": "https://github.com/twbs/bootstrap-sass",
+         "description": "Bootstrap Sass is a Sass-powered version of Twitter's Bootstrap, ready to drop right into your Sass-powered projects. Installation is straightforward: Set up your Ruby On Rails installation, import Bootstrap in an SCSS file to get of all Bootstrap's styles, mixins and variables, then include Bootstrap's JavaScript files.",
+         "tags": ["framework"],
+         "image": "https://www.fasttracksites.com/wp-content/uploads/2013/08/bootstrap-logo.png"
+      },
+      {
+         "name": "Sass Guidelines",
+         "url": "http://sass-guidelin.es/",
+         "description": "An opinionated styleguide for writing sane, maintainable and scalable Sass by Hugo Giraudel.",
+         "tags": ["guide"]
+      },
+      {
+         "name": "Sass Doc",
+         "url": "http://sassdoc.com/",
+         "description": "SassDoc is to Sass what JSDoc is to JavaScript: a documentation system to build pretty and powerful docs in the blink of an eye. Among other things, SassDoc is: usable out of the box; highly customisable; blazingly fast; fully themable; integrated with Grunt/Gulp/Broccoli or directly Node.",
+         "tags": ["docs"],
+         "image": "http://sassdoc.com/assets/images/illustration.svg"
+      },
+      {
+         "name": "Hugo Giraudel",
+         "url": "http://hugogiraudel.com/",
+         "description": "I am a French front-end developer based in Berlin. After a couple of years working as a developer in the banking industry, I had the great opportunity to join Edenspiekermann in Berlin to work on client projects. I dare call myself an active open-source community member as I have contributed to many projects, as well as initiated a few of my own as well. Among them, let’s mention Browserhacks, SassDoc, Sass Guidelines and Sass Compatibility.",
+         "tags": ["docs"],
+         "image": "http://hugogiraudel.com/images/hugo-giraudel.jpg"
+      }
+
+   ]

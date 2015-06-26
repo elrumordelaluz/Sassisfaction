@@ -63,9 +63,36 @@
       {
          "name": "Hugo Giraudel",
          "url": "http://hugogiraudel.com/",
-         "description": "I am a French front-end developer based in Berlin. After a couple of years working as a developer in the banking industry, I had the great opportunity to join Edenspiekermann in Berlin to work on client projects. I dare call myself an active open-source community member as I have contributed to many projects, as well as initiated a few of my own as well. Among them, let’s mention Browserhacks, SassDoc, Sass Guidelines and Sass Compatibility.",
-         "tags": ["docs"],
+         "description": "CSS goblin. Sass hacker. Margin psycho. Author of Sass Guidelines, SassDoc, Sass Compatibility, Browserhacks and a lot of Sass stuff.",
+         "tags": ["author"],
          "image": "http://hugogiraudel.com/images/hugo-giraudel.jpg"
+      },
+      {
+         "name": "Sass Reference",
+         "url": "http://www.sitepoint.com/sass-reference/",
+         "description": "The ultimate guide to Sass.",
+         "tags": ["guide"]
+      },
+      {
+         "name": "Sass Bites Podcast",
+         "url": "https://www.youtube.com/channel/UCOFsG9Tbs7Aga9n7Smify0A",
+         "description": "A weekly bite of Sass during your lunch break..",
+         "tags": ["podcast"],
+         "image": "https://yt3.ggpht.com/-p71ZA1BEf1I/AAAAAAAAAAI/AAAAAAAAAAA/nOlmgcNNZpo/s100-c-k-no/photo.jpg"
+      },
+      {
+         "name": "Sass Meister",
+         "url": "http://sassmeister.com/",
+         "description": "A weekly bite of Sass during your lunch break.",
+         "tags": ["editor"],
+         "image": "https://d21ii91i3y6o6h.cloudfront.net/gallery_images/from_proof/2436/large/1415129216/sassmeister-dot-com-stickers.png"
+      },
+      {
+         "name": "Sass News",
+         "url": "http://www.sassnews.com/",
+         "description": "Sass News is a weekly newsletter edited, curated and published by Stu Robson",
+         "tags": ["newsletter"],
+         "image": "http://www.sassnews.com/assets/images/logo.svg"
       }
 
    ]

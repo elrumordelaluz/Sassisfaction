@@ -26,6 +26,8 @@ var Item = React.createClass({
               }
             </div>
             <div className='item-links'>
+            { 
+            /*
               <a href={ this.props.link }>
                 <svg 
                   dangerouslySetInnerHTML={{__html: "<use xlink:href='assets/img/symbols.svg#icon-pin'/>"}}>
@@ -36,6 +38,8 @@ var Item = React.createClass({
                   dangerouslySetInnerHTML={{__html: "<use xlink:href='assets/img/symbols.svg#icon-info'/>"}}>
                 </svg>
               </a>
+              */
+            }
               <a href={ this.props.link }>
                 <svg
                   dangerouslySetInnerHTML={{__html: "<use xlink:href='assets/img/symbols.svg#icon-link'/>"}}>

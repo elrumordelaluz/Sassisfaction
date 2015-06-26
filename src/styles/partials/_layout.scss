@@ -167,6 +167,24 @@
     z-index: 20;
   }
 
+  &:after {
+    content: '#tag: + query to filter, Esc to clear';
+    font-size: 12px;
+    left: 0;
+    margin-top: 5px;
+    opacity: 0;
+    position: absolute;
+    top: 100%;
+    transition: opacity .3s;
+    visibility: hidden;
+    width: 100%;
+  }
+
+  &.focus:after {
+    opacity: 1;
+    visibility: visible;
+  }
+
 }
 
 
@@ -246,6 +264,10 @@ a {
     text-decoration: underline;
     color: $pink;
   }
+}
+
+.twitter-share-button {
+  margin-top: 10px;
 }
 
 
@@ -395,5 +417,6 @@ a {
   .main-search.top { 
     input { width: 0; }
     input:focus { width: auto;}
+    &:after { display: none; }
   }
 }

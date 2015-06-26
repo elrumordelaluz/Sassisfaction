@@ -63,6 +63,10 @@ var Search = React.createClass({
     React.findDOMNode(this.refs.closeBtn).classList.add('show');
   },
 
+  handleFocus: function(){
+    React.findDOMNode(this.refs.mainSearch).classList.add('focus');
+  },
+
   handleTagEvent: function(e){
     this.setState( {searchString: '#' + e.target.innerHTML + ':' } );
     React.findDOMNode(this.refs.closeBtn).classList.add('show');
@@ -78,6 +82,12 @@ var Search = React.createClass({
     if (e.keyCode == 27) {
       this.handleClear();
     }
+  },
+
+  handleGA: function(e){
+    var val = React.findDOMNode(this.refs.textInput).value;
+    React.findDOMNode(this.refs.mainSearch).classList.remove('focus');
+    ga('send', 'event', 'search', val);
   },
 
   render: function() {
@@ -117,12 +127,12 @@ var Search = React.createClass({
 
     return (
       <div className='container text--center'>
-        <div className='main-search top'>
+        <div className='main-search top' ref="mainSearch">
           <label>
             <svg className="search-icon" 
               dangerouslySetInnerHTML={{__html: "<use xlink:href='assets/img/symbols.svg#icon-search'/>"}}>
             </svg>
-            <input type="text" ref="textInput" value={this.state.searchString} onChange={this.handleChange} onKeyUp={this.handleEsc} placeholder="Search..." />
+            <input type="text" ref="textInput" value={this.state.searchString} onFocus={this.handleFocus} onChange={this.handleChange} onKeyUp={this.handleEsc} onBlur={ this.handleGA } placeholder="Search..." />
             <svg className="close-icon" ref="closeBtn" onClick={this.handleClear}
               dangerouslySetInnerHTML={{__html: "<use xlink:href='assets/img/symbols.svg#icon-close'/>"}}>
             </svg>

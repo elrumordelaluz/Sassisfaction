@@ -78,8 +78,7 @@ var Search = React.createClass({
     var that = this,
         libraries = this.state.libraries,
         searchString = this.state.searchString.trim().toLowerCase(),
-        re = /^#/,
-        re2 = /^(#author|#news|#hola)/;
+        re = /^#/;
 
 
     if( searchString.length > 0 && !re.test(searchString) ){
@@ -90,9 +89,22 @@ var Search = React.createClass({
     } 
     else if( searchString.length > 0 && re.test(searchString) ){
       // Searching by tags
-      libraries = libraries.filter(function(l){
-        return l.tags.indexOf( searchString.replace(re, '') ) !== -1;
+      var str = searchString.replace(re, '');
+      // str = str.indexOf(':') !== -1 ? str.replace(':', '') : str;
+      var after = str.substr(str.indexOf(":") + 1);
+      var before = str.substr(0, str.indexOf(':')); 
+
+      var libsByTag = libraries.filter(function(l){
+        var byTag =  str.indexOf(':') !== -1 ? l.tags.indexOf( before ) !== -1 : l.tags.indexOf( str ) !== -1;
+        return byTag;
       });
+
+      var libsByTagAndname = libsByTag.filter(function(l){
+        return l.name.toLowerCase().match( after );
+      });
+
+      libraries = str.indexOf(':') !== -1 ? libsByTagAndname : libsByTag;
+
     }
 
 

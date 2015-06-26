@@ -60,16 +60,23 @@ var Search = React.createClass({
 
   handleChange: function(e){
     this.setState( {searchString:e.target.value} );
+    React.findDOMNode(this.refs.closeBtn).classList.add('show');
   },
 
-  handleThatEvent: function(e){
-    this.setState( {searchString: '#' + e.target.innerHTML } );
-    React.findDOMNode(this.refs.myTextInput).focus();
+  handleTagEvent: function(e){
+    this.setState( {searchString: '#' + e.target.innerHTML + ':' } );
+    React.findDOMNode(this.refs.closeBtn).classList.add('show');
+    React.findDOMNode(this.refs.textInput).focus();
   },
 
-  handleClear: function(e){
+  handleClear: function(){
+    this.setState( {searchString:''} );
+    React.findDOMNode(this.refs.closeBtn).classList.remove('show');
+  },
+
+  handleEsc: function(e){
     if (e.keyCode == 27) {
-      this.setState( {searchString:''} );
+      this.handleClear();
     }
   },
 
@@ -115,7 +122,10 @@ var Search = React.createClass({
             <svg className="search-icon" 
               dangerouslySetInnerHTML={{__html: "<use xlink:href='assets/img/symbols.svg#icon-search'/>"}}>
             </svg>
-            <input type="text" ref="myTextInput" value={this.state.searchString} onChange={this.handleChange} onKeyUp={this.handleClear} placeholder="Search..." />
+            <input type="text" ref="textInput" value={this.state.searchString} onChange={this.handleChange} onKeyUp={this.handleEsc} placeholder="Search..." />
+            <svg className="close-icon" ref="closeBtn" onClick={this.handleClear}
+              dangerouslySetInnerHTML={{__html: "<use xlink:href='assets/img/symbols.svg#icon-close'/>"}}>
+            </svg>
           </label>
         </div>
           <div className='items'> 
@@ -127,7 +137,7 @@ var Search = React.createClass({
                   tags={l.tags} 
                   key={ toHash(l.name) } 
                   image={l.image} 
-                  onSomeEvent={that.handleThatEvent}
+                  onClickTag={that.handleTagEvent}
                   ></Item>
             }) }
           </div>

@@ -21,7 +21,7 @@ var Item = React.createClass({
             <div className='item-tags'>
               { 
                 this.props.tags.map(function(tag){
-                  return <button onClick={this.props.onSomeEvent} key={tag}>{tag}</button>
+                  return <button onClick={this.props.onClickTag} key={tag}>{tag}</button>
                 }, this)
               }
             </div>

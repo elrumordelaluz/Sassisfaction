@@ -84,7 +84,7 @@ var Search = React.createClass({
     if( searchString.length > 0 && !re.test(searchString) ){
       // Searching by string
       libraries = libraries.filter(function(l){
-        return l.name.toLowerCase().match( searchString );
+        return l.name.toLowerCase().match( searchString ) || l.desc.toLowerCase().match( searchString );
       });
     } 
     else if( searchString.length > 0 && re.test(searchString) ){
@@ -100,7 +100,7 @@ var Search = React.createClass({
       });
 
       var libsByTagAndname = libsByTag.filter(function(l){
-        return l.name.toLowerCase().match( after );
+        return l.name.toLowerCase().match( after ) || l.desc.toLowerCase().match( after )
       });
 
       libraries = str.indexOf(':') !== -1 ? libsByTagAndname : libsByTag;

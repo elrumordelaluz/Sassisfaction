@@ -5,6 +5,12 @@
   max-width: $container-width;
 }
 
+.fake {
+  font-family: 'BLOKKRegular';
+  .item-title { font-size: 25px; }
+  .item-desc { font-size: 12px; }
+  .item-tags button {  color: $dark; font-family: 'BLOKKRegular';  }
+}
 
 
 

@@ -1,11 +1,11 @@
 {
-  "name": "TemplateInit",
+  "name": "Sassisfaction ",
   "version": "1.0.0",
-  "description": "Starting project templatez",
+  "description": "Awesome Sass Resources",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/elrumordelaluz/pe_bs_template.git"
+    "url": "https://github.com/elrumordelaluz/Sassisfaction.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

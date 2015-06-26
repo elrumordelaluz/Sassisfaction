@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Sassisfaction :: Awesome Sass Resources</title>
+    <link rel="shortcut icon" href="assets/img/favicon.ico">
+    <link href="http://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Roboto:400,300,500" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="main-icon">
+          <svg>
+            <use xlink:href="assets/img/symbols.svg#main-logo"></use>
+          </svg>
+          <h1 class="big-title text--truncate"><span class="color-pink">Sass</span>isfaction</h1>
+          <p class="copy">awesome<span class="color-pink">re</span>s<span class="color-pink">our</span>c<span class="color-pink">e</span>ss</p>
+        </div>
+      </div>
+    </header>
+    <input type="checkbox" id="input-layout">
+    <label for="input-layout" class="items-layout">
+      <svg class="layout-th">
+        <use xlink:href="assets/img/symbols.svg#icon-th"></use>
+      </svg>
+      <svg class="layout-list">
+        <use xlink:href="assets/img/symbols.svg#icon-list"></use>
+      </svg>
+    </label>
+    <section id="items" class="section row">
+      <div class="container">
+        <div class="items">
+          <div class="items__item half fake"><a href="#0" class="item-image"> 
+              <svg class="alt-logo">
+                <use xlink:href="assets/img/symbols.svg#alt-logo"></use>
+              </svg></a>
+            <div class="item-content">
+              <h3 class="item-title"> <a href="#0">Title</a></h3>
+              <p class="item-desc">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+              <div class="item-meta">
+                <div class="item-tags">
+                  <button>tag</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="items__item half fake"><a href="#0" class="item-image"> 
+              <svg class="alt-logo">
+                <use xlink:href="assets/img/symbols.svg#alt-logo"></use>
+              </svg></a>
+            <div class="item-content">
+              <h3 class="item-title"> <a href="#0">Title</a></h3>
+              <p class="item-desc"> Porro odit animi maiores magnam et quisquam delectus ipsam ratione.</p>
+              <div class="item-meta">
+                <div class="item-tags">
+                  <button>tag</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="items__item half fake"><a href="#0" class="item-image"> 
+              <svg class="alt-logo">
+                <use xlink:href="assets/img/symbols.svg#alt-logo"></use>
+              </svg></a>
+            <div class="item-content">
+              <h3 class="item-title"> <a href="#0">Title</a></h3>
+              <p class="item-desc"> Eveniet quos asperiores, optio amet consectetur delectus fugit, officia ut.</p>
+              <div class="item-meta">
+                <div class="item-tags">
+                  <button>tag</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <p>Made with <span>❤ </span> and React by <a href="https://twitter.com/elrumordelaluz">elrumordelaluz</a></p>
+      <p> <a href="#0"> <span>Submit Resources </span></a>or <a href="#0">Issues</a></p>
+    </footer>
+    <!-- Livereload Script -- remove on production-->
+    <script>
+      document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')
+      
+    </script>
+    <script type="text/javascript" src="assets/js/pe-scrollchange.min.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
+    <script>
+      var docElem = window.document.documentElement;
+      
+      function scrollY() {
+        return window.pageYOffset || docElem.scrollTop;
+      }
+      
+      document.addEventListener("DOMContentLoaded", function() {
+        
+        peScrollChange.init({
+          elem: '.header',
+          trigger: 300,
+          classesToChange: 'top'
+        })
+        
+        
+        var header = document.querySelector('.header');
+      
+        window.addEventListener('scroll', function(){
+          var opacityValue;
+          opacityValue = 1 - scrollY() / 315;
+          
+          if(!header.classList.contains('top')) {
+            document.querySelector('.main-icon').style.opacity = opacityValue;
+          } else {
+            document.querySelector('.main-icon').style.opacity = 1;
+          }
+          
+        }, false);
+      
+      });
+      
+      
+          
+    </script>
+  </body>
+</html>

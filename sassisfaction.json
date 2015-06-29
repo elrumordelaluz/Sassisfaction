@@ -54,7 +54,7 @@
          "tags": ["guide"]
       },
       {
-         "name": "Sass Doc",
+         "name": "SassDoc",
          "url": "http://sassdoc.com/",
          "description": "SassDoc is to Sass what JSDoc is to JavaScript: a documentation system to build pretty and powerful docs in the blink of an eye. Among other things, SassDoc is: usable out of the box; highly customisable; blazingly fast; fully themable; integrated with Grunt/Gulp/Broccoli or directly Node.",
          "tags": ["docs"],

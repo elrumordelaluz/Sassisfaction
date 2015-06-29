@@ -93,10 +93,6 @@
          "description": "Sass News is a weekly newsletter edited, curated and published by Stu Robson",
          "tags": ["newsletter"],
          "image": "http://www.sassnews.com/assets/images/logo.svg"
-<<<<<<< HEAD
-      }
-
-=======
       },
       {
          "name": "Sassdash",
@@ -105,5 +101,4 @@
          "tags": ["utility", "functions", "library"],
          "image": "https://raw.githubusercontent.com/davidkpiano/sassdash/master/sassdash.png"
       }
->>>>>>> fb765c2d84ea974d911b8bdaed3c69d431f74d8b
    ]

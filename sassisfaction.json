@@ -119,5 +119,12 @@
          "description": "A Sass @mixin for creating traditional frame-based animations, especially with SVG. Think gifs, but scalable and with more control over combining animations together.",
          "tags": ["mixin", "animation"],
          "image": "https://camo.githubusercontent.com/24f57a75b0bda1b4fa6649c8548164c0c242e9ce/687474703a2f2f686579646f6e776f726b732e636f6d2f6672616d652d616e696d6174696f6e2d64656d6f732f7374616d702d64616e63652e706e67"
+      },
+      {
+         "name": "Outline",
+         "url": "http://www.outlinecss.co.uk/",
+         "description": "The clean & simple responsive framework. It's a modular, mobile-first framework which includes todays best practices for responsive design and core components I use on every project. Outline is designed to be a starting point. A solid foundation for your project, leaving the creativity up to you.",
+         "tags": ["framework", "responsive"],
+         "image": "http://www.outlinecss.co.uk/img/min/browser.png"
       }
    ]

@@ -93,6 +93,17 @@
          "description": "Sass News is a weekly newsletter edited, curated and published by Stu Robson",
          "tags": ["newsletter"],
          "image": "http://www.sassnews.com/assets/images/logo.svg"
+<<<<<<< HEAD
       }
 
+=======
+      },
+      {
+         "name": "Sassdash",
+         "url": "https://github.com/davidkpiano/sassdash",
+         "description": "Sassdash is lodash for Sass -- the largest collection of well-tested utility functions for maps, lists, strings, numbers, and more. Works with both node-sass (LibSass) and Ruby Sass, with no extra dependencies.",
+         "tags": ["utility", "functions", "library"],
+         "image": "https://raw.githubusercontent.com/davidkpiano/sassdash/master/sassdash.png"
+      }
+>>>>>>> fb765c2d84ea974d911b8bdaed3c69d431f74d8b
    ]

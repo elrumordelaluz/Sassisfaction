@@ -81,9 +81,9 @@
          "image": "https://yt3.ggpht.com/-p71ZA1BEf1I/AAAAAAAAAAI/AAAAAAAAAAA/nOlmgcNNZpo/s100-c-k-no/photo.jpg"
       },
       {
-         "name": "Sass Meister",
+         "name": "SassMeister",
          "url": "http://sassmeister.com/",
-         "description": "A weekly bite of Sass during your lunch break.",
+         "description": "SassMeister is a playground for Sass, Compass, and LibSass. Add some Sass and SassMeister will show you the rendered CSS. SassMeister supports both Sass and SCSS syntaxes, all output styles, and an ever-expanding list of Compass extensions and Sass libraries.",
          "tags": ["editor"],
          "image": "https://d21ii91i3y6o6h.cloudfront.net/gallery_images/from_proof/2436/large/1415129216/sassmeister-dot-com-stickers.png"
       },

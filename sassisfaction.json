@@ -106,5 +106,11 @@
          "url": "https://github.com/brigade/scss-lint",
          "description": "Configurable tool for writing clean and consistent SCSS.",
          "tags": ["utility", "lint"]
+      },
+      {
+         "name": "vary",
+         "url": "http://jaicab.com/sass-vary/",
+         "description": "Sass theming made easy. The vary mixin is the most flexible, scalable and modular Sass theming solution out there.",
+         "tags": ["mixin", "theming"]
       }
    ]

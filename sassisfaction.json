@@ -126,5 +126,11 @@
          "description": "The clean & simple responsive framework. It's a modular, mobile-first framework which includes todays best practices for responsive design and core components I use on every project. Outline is designed to be a starting point. A solid foundation for your project, leaving the creativity up to you.",
          "tags": ["framework", "responsive"],
          "image": "http://www.outlinecss.co.uk/img/min/browser.png"
+      },
+      {
+         "name": "sassy-validation",
+         "url": "https://github.com/Skoks/sassy-validation/",
+         "description": "Sass data type validation library. Sassy-validation is a handy addition for every Sass project which uses @functions and/or @mixins.",
+         "tags": ["utility"]
       }
    ]

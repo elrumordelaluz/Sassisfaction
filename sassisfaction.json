@@ -31,14 +31,14 @@
          "name":"Susy",
          "url":"http://susy.oddbird.net/",
          "description": "In a world of agile development and super-tablet-multi-magic-laptop-phones, the best layouts can’t be contained in a single framework or technique. CSS Libraries are a bloated mess of opinions about how to do your job. Why let the table-saw tell you where to put the kitchen?",
-         "tags":["grids", "library"],
+         "tags":["grid", "library"],
          "image": "http://susy.oddbird.net/logo.png"
       },
       {
          "name":"Modular Scale",
          "url": "https://github.com/modularscale/modularscale-sass",
          "description": "Sassy Modular Scale is a Sass-based mixin that calculates the incremental values of the modular scale in proportion to a set size and ratio. It was inspired by and adapted from Tim Brown's Modular Scale, and can be used as a Compass Extension or installed as a Ruby gem. Included are functions for a number of classic design and musical scale ratios, with the ability to add your own ratios, as well.",
-         "tags":["grids", "library"]
+         "tags":["grid", "library"]
       },
       {
          "name": "Bootstrap Sass",
@@ -132,5 +132,11 @@
          "url": "https://github.com/Skoks/sassy-validation/",
          "description": "Sass data type validation library. Sassy-validation is a handy addition for every Sass project which uses @functions and/or @mixins.",
          "tags": ["utility"]
+      },
+      {
+         "name": "Rebar Grid Framework",
+         "url": "http://rebar.io/",
+         "description": "Rebar is a Sass / Stylus grid framework that makes responsive development more efficient and keeps CSS organised.",
+         "tags": ["grid", "framework"]
       }
    ]

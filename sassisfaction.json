@@ -152,5 +152,12 @@
          "description": "A book by Cole Henley. CSS has the dual benefit of being incredibly powerful but also very easy to learn. However, it is an incredibly forgiving and lazy language which can hide a multitude of sins. Writing good, efficient CSS can be complicated but fortunately Sass can help us out.",
          "tags": ["book"],
          "image": "http://cdn.shopify.com/s/files/1/0067/4082/products/betterCSS_1024x1024.jpg?v=1435141703"
+      },
+      {
+         "name": "Learning Sass with CodePen Series",
+         "url": "http://blog.codepen.io/2015/02/20/dudley-storeys-learning-sass-codepen-series/",
+         "description": "Mr. Dudley Storey has been blogging a series about learning Sass and making CodePen demos for the concepts along the way. It's a great way to get acquainted with the CSS preprocessor if you haven't yet. Seven parts so far!",
+         "tags": ["tutorial"],
+         "image": "http://blog.codepen.io/wp-content/uploads/2012/06/Button-Black-Large.png"
       }
    ]

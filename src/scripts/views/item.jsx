@@ -33,13 +33,13 @@ var Item = React.createClass({
                   dangerouslySetInnerHTML={{__html: "<use xlink:href='assets/img/symbols.svg#icon-pin'/>"}}>
                 </svg>
               </a>
-              <a href={ this.props.link }>
-                <svg
-                  dangerouslySetInnerHTML={{__html: "<use xlink:href='assets/img/symbols.svg#icon-info'/>"}}>
-                </svg>
-              </a>
               */
             }
+              <a href={ 'http://twitter.com/intent/tweet?url=' + this.props.link + '&text=Another great link from sassisfaction.com :: &related=yarrcat' }>
+                <svg
+                  dangerouslySetInnerHTML={{__html: "<use xlink:href='assets/img/symbols.svg#icon-twitter'/>"}}>
+                </svg>
+              </a>
               <a href={ this.props.link }>
                 <svg
                   dangerouslySetInnerHTML={{__html: "<use xlink:href='assets/img/symbols.svg#icon-link'/>"}}>

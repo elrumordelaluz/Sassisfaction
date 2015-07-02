@@ -149,7 +149,7 @@ var Search = React.createClass({
                   image={l.image} 
                   onClickTag={that.handleTagEvent}
                   ></Item>
-            }) }
+            }).reverse() }
           </div>
         </div>
     );

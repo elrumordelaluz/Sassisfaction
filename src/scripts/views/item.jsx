@@ -35,7 +35,7 @@ var Item = React.createClass({
               </a>
               */
             }
-              <a href={ 'http://twitter.com/intent/tweet?url=' + this.props.link + '&text=Another great link from sassisfaction.com :: &related=yarrcat' }>
+              <a href={ 'http://twitter.com/intent/tweet?url=' + this.props.link + '&text=Another great link from http://sassisfaction.com :: &related=yarrcat' }>
                 <svg
                   dangerouslySetInnerHTML={{__html: "<use xlink:href='assets/img/symbols.svg#icon-twitter'/>"}}>
                 </svg>

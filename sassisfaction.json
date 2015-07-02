@@ -159,5 +159,12 @@
          "description": "Mr. Dudley Storey has been blogging a series about learning Sass and making CodePen demos for the concepts along the way. It's a great way to get acquainted with the CSS preprocessor if you haven't yet. Seven parts so far!",
          "tags": ["tutorial"],
          "image": "http://blog.codepen.io/wp-content/uploads/2012/06/Button-Black-Large.png"
+      },
+      {
+         "name": "Sassy Sass",
+         "url": "http://sassysass.com/",
+         "description": "Sassy Sass is a scaffolding tool to help you organize your project’s Sass structure. With a simple command, add a well-structured architecture for your project's CSS. Based off the SMACSS methodology, SassySass creates a simple, maintainable structure for your Sass files.",
+         "tags": ["tool"],
+         "image": "https://camo.githubusercontent.com/12c632a742e0809068be5582018f366bc2520b92/687474703a2f2f7361737379736173732e636f6d2f73617373792d736173732e706e67"
       }
    ]

@@ -170,7 +170,7 @@
       {
          "name": "sassy-exists",
          "url": "https://github.com/Skoks/sassy-exists/",
-         "description": "Sass micro library for existence checks. Handy addition for every Sass project which can't afford having any doubts.",
+         "description": "Sass micro library for existence checks. Handy addition for every Sass project which can't afford to have any doubts.",
          "tags": ["tool"]
       }
    ]

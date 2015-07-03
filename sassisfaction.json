@@ -172,5 +172,12 @@
          "url": "https://github.com/Skoks/sassy-exists/",
          "description": "Sass micro library for existence checks. Handy addition for every Sass project which can't afford to have any doubts.",
          "tags": ["tool"]
+      },
+      {
+         "name": "sass-mq",
+         "url": "https://github.com/sass-mq/sass-mq",
+         "description": "Media Queries with superpowers. mq() is a Sass mixin that helps you compose media queries in an elegant way.",
+         "tags": ["mixin", "responsive"],
+         "image": "https://avatars3.githubusercontent.com/u/9341289?v=3&s=300"
       }
    ]

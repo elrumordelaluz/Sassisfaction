@@ -179,5 +179,12 @@
          "description": "Media Queries with superpowers. mq() is a Sass mixin that helps you compose media queries in an elegant way.",
          "tags": ["mixin", "responsive"],
          "image": "https://avatars3.githubusercontent.com/u/9341289?v=3&s=300"
+      },
+      {
+         "name": "sass-maps-plus",
+         "url": "https://github.com/sass-mq/sass-mq",
+         "description": "Advanced map and list-map functions for all versions of Sass. They provide advanced native map data-type manipulation and inspection in libsass (as of version 3.1) and ruby-sass (as of version 3.3).",
+         "tags": ["functions"],
+         "image": "https://raw.githubusercontent.com/lunelson/sass-maps-plus/master/sass-hash-plus.jpg"
       }
    ]

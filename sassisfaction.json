@@ -186,5 +186,12 @@
          "description": "Advanced map and list-map functions for all versions of Sass. They provide advanced native map data-type manipulation and inspection in libsass (as of version 3.1) and ruby-sass (as of version 3.3).",
          "tags": ["functions"],
          "image": "https://raw.githubusercontent.com/lunelson/sass-maps-plus/master/sass-hash-plus.jpg"
-      }
+      },
+      {
+         "name": "include-media",
+         "url": "http://include-media.com",
+         "description": "Simple, elegant and maintainable media queries in Sass",
+         "tags": ["breakpoints", "responsive", "media"],
+         "image": "https://camo.githubusercontent.com/d6b67d6f8258b19d5011dec32f0aa85a2196fd94/687474703a2f2f696e636c7564652d6d656469612e636f6d2f6173736574732f696d616765732f6c6f676f2e706e67"
+      }      
    ]

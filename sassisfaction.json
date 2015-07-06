@@ -193,5 +193,11 @@
          "description": "Simple, elegant and maintainable media queries in Sass",
          "tags": ["breakpoints", "responsive", "media"],
          "image": "https://camo.githubusercontent.com/d6b67d6f8258b19d5011dec32f0aa85a2196fd94/687474703a2f2f696e636c7564652d6d656469612e636f6d2f6173736574732f696d616765732f6c6f676f2e706e67"
-      }      
+      },
+      {
+         "name": "sass-boilerplate",
+         "url": "https://github.com/HugoGiraudel/sass-boilerplate",
+         "description": "A boilerplate for Sass projects using the 7-1 architecture pattern by Hugo Giraudel.",
+         "tags": ["boilerplate"]
+      }
    ]

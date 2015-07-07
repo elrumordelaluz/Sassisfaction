@@ -199,5 +199,11 @@
          "url": "https://github.com/HugoGiraudel/sass-boilerplate",
          "description": "A boilerplate for Sass projects using the 7-1 architecture pattern by Hugo Giraudel.",
          "tags": ["boilerplate"]
+      },
+      {
+         "name": "Sass MediaQueries",
+         "url": "http://paranoida.github.io/sass-mediaqueries/",
+         "description": "It's a collection of useful Media Queries mixins for Sass (including iOS devices, TVs and more). Fully customizable and very easy to use.",
+         "tags": ["mixin", "responsive", "media queries"]
       }
    ]

@@ -211,5 +211,12 @@
          "url": "https://github.com/theefer/plugin-sass",
          "description": "A Sass loader plugin for SystemJS, based on sass.js. This plugin allows importing SCSS files from SystemJS and have them dynamically compiled to CSS and loaded into the page from within the browser. Alternatively, the SCSS files can also be converted to CSS statically by creating bundles with JSPM.",
          "tags": ["js", "plugin"]
+      },
+      {
+         "name": "SassMe",
+         "url": "http://sassme.arc90.com/",
+         "description": "This is a simple web page to help designers/developers visualize a subset of the SASS color functions (lighten, darken, adjust_hue). You enter a base color, adjust the sliders to get you desired color, and the SASS functions to achieve that color are provided to you.",
+         "tags": ["color", "tool", "functions"],
+         "image": "http://sassme.arc90.com/img/sass-me-logo@2x.png"
       }
    ]

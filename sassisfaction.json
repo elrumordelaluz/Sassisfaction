@@ -205,5 +205,11 @@
          "url": "http://paranoida.github.io/sass-mediaqueries/",
          "description": "It's a collection of useful Media Queries mixins for Sass (including iOS devices, TVs and more). Fully customizable and very easy to use.",
          "tags": ["mixin", "responsive", "media queries"]
+      },
+      {
+         "name": "SystemJS Sass plugin",
+         "url": "https://github.com/theefer/plugin-sass",
+         "description": "A Sass loader plugin for SystemJS, based on sass.js. This plugin allows importing SCSS files from SystemJS and have them dynamically compiled to CSS and loaded into the page from within the browser. Alternatively, the SCSS files can also be converted to CSS statically by creating bundles with JSPM.",
+         "tags": ["js", "plugin"]
       }
    ]

@@ -224,5 +224,12 @@
          "url": "http://lukyvj.github.io/accecss/",
          "description": "A Sass mixin that debugs & checks the accessibility of your designs. This mixin will allow you to get an overview of all the zones of your layout, get a grascaled version to check the contrast, as well as 8 different filters to emulate the most common coloblindness types.",
          "tags": ["mixin", "accessibility"]
+      },
+      {
+         "name": "Sassaby",
+         "url": "https://github.com/ryanbahniuk/sassaby",
+         "description": "Sassaby is a unit testing library for SASS mixins and functions. It is written in Node to provide a consistent interface with other front-end tests in your system and for easy integration into a build system. Its interface can be used with any Node testing library (Mocha, Jasmine, etc.).",
+         "tags": ["test", "mixin", "functions"],
+         "image": "https://raw.githubusercontent.com/ryanbahniuk/sassaby/master/logo.png"
       }
    ]

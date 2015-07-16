@@ -231,5 +231,11 @@
          "description": "Sassaby is a unit testing library for SASS mixins and functions. It is written in Node to provide a consistent interface with other front-end tests in your system and for easy integration into a build system. Its interface can be used with any Node testing library (Mocha, Jasmine, etc.).",
          "tags": ["test", "mixin", "functions"],
          "image": "https://raw.githubusercontent.com/ryanbahniuk/sassaby/master/logo.png"
+      },
+      {
+         "name": "css2sass",
+         "url": "http://css2sass.herokuapp.com/",
+         "description": "Convert CSS Snippets to Syntactically Awesome StyleSheets code.",
+         "tags": ["editor"]
       }
    ]

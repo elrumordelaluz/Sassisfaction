@@ -1,5 +1,5 @@
 # Sassisfaction
-#### Awesome Sass Resources
+##### Awesome Sass Resources
 
 A little [Sass Resources Library](http://sassisfaction.com/) to search and contribute.
 

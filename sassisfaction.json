@@ -244,5 +244,11 @@
          "description": "PreCSS is a tool that allows you to use Sass-like markup in your CSS files. Enjoy a familiar syntax with variables, mixins, conditionals, and other goodies.",
          "tags": ["editor", "syntax"],
          "image": "https://camo.githubusercontent.com/cd96d50387a761a212168e21565c18e6c07b27bc/68747470733a2f2f692e696d6775722e636f6d2f7a78784e334f582e706e67"
+      },
+      {
+         "name": "Sass Colour Function Calculator",
+         "url": "http://razorjam.github.io/sasscolourfunctioncalculator/",
+         "description": "A tool for calculating the Sass colour function required to get from one colour to another.",
+         "tags": ["color", "function"]
       }
    ]

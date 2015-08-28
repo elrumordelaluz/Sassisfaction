@@ -250,5 +250,12 @@
          "url": "http://razorjam.github.io/sasscolourfunctioncalculator/",
          "description": "A tool for calculating the Sass colour function required to get from one colour to another.",
          "tags": ["color", "function"]
+      },
+      {
+         "name": "Sass Director",
+         "url": "http://sassdirector.com/",
+         "description": "What Sass Director does is enable a developer to architect an entire project structure within a single manifest file. During the initial setup, instead of manually creating all of the directories and files within them, the outputted shell commands will do the job quickly.",
+         "tags": ["shell", "directories", "files"],
+         "image": "http://sassdirector.com/sass-director.svg"
       }
    ]

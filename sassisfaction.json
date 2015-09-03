@@ -257,5 +257,12 @@
          "description": "What Sass Director does is enable a developer to architect an entire project structure within a single manifest file. During the initial setup, instead of manually creating all of the directories and files within them, the outputted shell commands will do the job quickly.",
          "tags": ["shell", "directories", "files"],
          "image": "http://sassdirector.com/sass-director.svg"
+      },
+      {
+         "name": "Sassport",
+         "url": "https://github.com/davidkpiano/sassport",
+         "description": "JavaScript modules for Sass (node-sass). Easily share assets, and JavaScript functions and values in your Sass projects.",
+         "tags": ["js", "modules"],
+         "image": "https://raw.githubusercontent.com/davidkpiano/sassport/master/sassport-sm.png"
       }
    ]

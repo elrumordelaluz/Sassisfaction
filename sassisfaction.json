@@ -264,5 +264,25 @@
          "description": "JavaScript modules for Sass (node-sass). Easily share assets, and JavaScript functions and values in your Sass projects.",
          "tags": ["js", "modules"],
          "image": "https://raw.githubusercontent.com/davidkpiano/sassport/master/sassport-sm.png"
+      },
+      {
+         "name": "Gridle{.scss}",
+         "url": "http://gridle.org/",
+         "description": "Because each grid system out there have cool features, but none of them includes all. This is why Gridle is all about...",
+         "tags": ["grid"],
+         "image": "http://gridle.org/assets/img/balrog.png"
+      },
+      {
+         "name": "Zurb Motion UI",
+         "url": "http://zurb.com/playground/motion-ui",
+         "description": "A Sass library for creating flexible CSS transitions and animations.",
+         "tags": ["library", "animations", "transitions"],
+         "image": "http://zurb.com/playground/uploads/upload/upload/409/yeti.svg"
+      },
+      {
+         "name": "SassBlocks",
+         "url": "https://github.com/djfarly/sass-blocks",
+         "description": "SassBlocks introduces a pattern to make working with bem-blocks/modules in Sass/Scss a little more oop.",
+         "tags": ["bem", "function", "pattern"]
       }
    ]

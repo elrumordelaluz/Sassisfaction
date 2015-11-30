@@ -291,5 +291,12 @@
          "description": "A Sass framework that empowers you to create flexible, clear, and semantic website layouts.",
          "tags": ["layout", "grid", "framework"],
          "image": "http://neutroncss.com/assets/img/logo.svg"
+      },
+      {
+         "name": "Takana",
+         "url": "http://usetakana.com/",
+         "description": "Takana is a Sass/CSS live-editor. It lets you see your SCSS and CSS style changes live, in the browser, as you type them.",
+         "tags": ["editor", "live-editor"],
+         "image": "http://usetakana.com/images/takana_logo_bolt.svg"
       }
    ]

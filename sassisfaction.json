@@ -298,5 +298,12 @@
          "description": "Takana is a Sass/CSS live-editor. It lets you see your SCSS and CSS style changes live, in the browser, as you type them.",
          "tags": ["editor", "live-editor"],
          "image": "http://usetakana.com/images/takana_logo_bolt.svg"
+      },
+      {
+         "name": "Avalanche",
+         "url": "http://colourgarden.net/avalanche/",
+         "description": "Superclean, powerful, responsive, Sass-based, BEM-syntax CSS grid system",
+         "tags": ["grid"],
+         "image": "http://colourgarden.net/avalanche/logo.png"
       }
    ]

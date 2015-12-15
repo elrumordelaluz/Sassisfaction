@@ -305,5 +305,12 @@
          "description": "Superclean, powerful, responsive, Sass-based, BEM-syntax CSS grid system",
          "tags": ["grid"],
          "image": "http://colourgarden.net/avalanche/logo.png"
+      },
+      {
+         "name": "Sierra",
+         "url": "http://sierra-library.github.io/",
+         "description": "Superclean, powerful, responsive, Sass-based, BEM-syntax CSS grid system",
+         "tags": ["framework", "library"],
+         "image": "http://sierra-library.github.io/demo/img/logo.png"
       }
    ]

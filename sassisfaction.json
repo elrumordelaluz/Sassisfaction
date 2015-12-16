@@ -312,5 +312,12 @@
          "description": "Superclean, powerful, responsive, Sass-based, BEM-syntax CSS grid system",
          "tags": ["framework", "library"],
          "image": "http://sierra-library.github.io/demo/img/logo.png"
+      },
+      {
+         "name": "Aurora Grid",
+         "url": "http://themes-pixeden.com/aurora-kit/grid",
+         "description": "Easy, flexible and full of responsive and mobile first features, made for designers, CSS Grid System.",
+         "tags": ["grid", "framework"],
+         "image": "http://www.pixeden.com/media/k2/items/cache/aurora-grid-css-system-M.jpg"
       }
    ]

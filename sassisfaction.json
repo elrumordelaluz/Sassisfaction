@@ -143,7 +143,7 @@
          "url": "https://github.com/chris-pearce/scally",
          "description": "Scally is a Sass-based, BEM, OOCSS, responsive ready, CSS framework that provides you with a solid foundation for building reusable UI's quickly.",
          "tags": ["framework", "responsive"],
-         "image": "https://camo.githubusercontent.com/4ee8759adcaa4cabb3e5bfa88a4cfa8e2cce0ea4/68747470733a2f2f646c2e64726f70626f7875736572636f6e74656e742e636f6d2f732f616e6c7a65647470656b636e6c61372f6c6f676f2e706e67"
+         "image": "https://pbs.twimg.com/profile_images/559439238278549505/8OFfttoY.png"
       },
       {
          "name": "Better CSS with Sass",
@@ -164,7 +164,7 @@
          "url": "http://sassysass.com/",
          "description": "Sassy Sass is a scaffolding tool to help you organize your project’s Sass structure. With a simple command, add a well-structured architecture for your project's CSS. Based off the SMACSS methodology, SassySass creates a simple, maintainable structure for your Sass files.",
          "tags": ["tool"],
-         "image": "https://camo.githubusercontent.com/12c632a742e0809068be5582018f366bc2520b92/687474703a2f2f7361737379736173732e636f6d2f73617373792d736173732e706e67"
+         "image": "http://www.sassysass.com/img/sassy-sass.svg"
       },
       {
          "name": "sassy-exists",

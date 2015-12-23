@@ -117,8 +117,7 @@
          "name": "Frame Based Animation",
          "url": "https://github.com/Heydon/frame-based-animation",
          "description": "A Sass @mixin for creating traditional frame-based animations, especially with SVG. Think gifs, but scalable and with more control over combining animations together.",
-         "tags": ["mixin", "animation"],
-         "image": "https://camo.githubusercontent.com/b1cdde4e1509e3be4f03a78cc518e1a060562b73/687474703a2f2f686579646f6e776f726b732e636f6d2f5356475f616e696d6174696f6e732f736861726b792e737667"
+         "tags": ["mixin", "animation"]
       },
       {
          "name": "Outline",

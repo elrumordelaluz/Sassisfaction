@@ -308,10 +308,10 @@
       },
       {
          "name": "Sierra",
-         "url": "http://sierra-library.github.io/",
+         "url": "https://sierra-library.github.io/",
          "description": "Superclean, powerful, responsive, Sass-based, BEM-syntax CSS grid system",
          "tags": ["framework", "library"],
-         "image": "http://sierra-library.github.io/demo/img/logo.png"
+         "image": "https://sierra-library.github.io/img/logo.png"
       },
       {
          "name": "Aurora Grid",

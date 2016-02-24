@@ -318,5 +318,43 @@
          "description": "Easy, flexible and full of responsive and mobile first features, made for designers, CSS Grid System.",
          "tags": ["grid", "framework"],
          "image": "http://www.pixeden.com/media/k2/items/cache/aurora-grid-css-system-M.jpg"
+      },
+      {
+         "name": "Buttons",
+         "url": "http://unicorn-ui.com/buttons/",
+         "description": "A highly customizable production ready mobile web and desktop css button library. Buttons is free and open source.",
+         "tags": ["buttons"]
+      },
+      {
+         "name": "Typesettings",
+         "url": "http://typesettings.io/",
+         "description": "A Sass or Stylus toolkit that sets type in Ems based on modular scale, vertical rhythm, and responsive ratio based headlines.",
+         "tags": ["type", "toolkit"]
+      },
+      {
+         "name": "Scut",
+         "url": "http://typesettings.io/",
+         "description": "A collection of Sass utilities to ease and improve our implementations of common style-code patterns.",
+         "tags": ["utilities", "patterns"]
+      },
+      {
+         "name": "Sassmatic",
+         "url": "http://sassmatic.com/",
+         "description": "A photo filter library using Sass and Compass.",
+         "tags": ["photo", "filters"],
+         "image": "http://s.cdpn.io/31787/duck.png"
+      },
+      {
+         "name": "Saffron",
+         "url": "http://colindresj.github.io/saffron/",
+         "description": "A simple Sass mixin library for animations and transitions.",
+         "tags": ["mixins", "animations", "transitions"]
+      },
+      {
+         "name": "Sassline",
+         "url": "https://sassline.com/",
+         "description": "Set text on the web to a baseline grid with Sass & rems using a responsive modular-scale.",
+         "tags": ["text", "modular-scale", "baseline", "grid"],
+         "image": "https://sassline.com/assets/img/sassline-01.svg"
       }
    ]

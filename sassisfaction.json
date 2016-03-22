@@ -4,35 +4,34 @@
          "url":"http://sass-lang.com/",
          "description": "Sass is the most mature, stable, and powerful professional grade CSS extension language in the world.",
          "tags":["framework"],
-         "image": "http://sass-lang.com/assets/img/illustrations/glasses-2087d741.svg"
+         "image": "https://avatars0.githubusercontent.com/u/317889"
       },
       {
          "name":"Compass",
          "url":"http://compass-style.org/",
          "description": "Compass is an open-source CSS authoring framework which uses the Sass stylesheet language to make writing stylesheets powerful and easy. If you're not familiar with Sass, Go to sass-lang.com to learn all about how it works.",
          "tags":["framework"],
-         "image": "http://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2015/02/1423617056compass.png"
+         "image": "https://avatars0.githubusercontent.com/u/455573"
       },
       {
          "name":"The Sassway",
          "url":"http://thesassway.com/",
          "description": "The Sass Way covers the latest news and topics on handcrafting CSS with Sass and Compass. We use an open publishing model and rely on contributions from the Sass community via our GitHub project.",
          "tags":["articles", "news"],
-         "image": "http://thesassway.com/images/thesassway.svg"
+         "image": "https://avatars2.githubusercontent.com/u/882896"
       },
       {
          "name":"Bourbon",
          "url":"http://bourbon.io/",
          "description": "A simple and lightweight mixin library for Sass",
          "tags":["library", "mixins"],
-         "image": "http://bourbon.io/images/shared/bourbon-logo@2x.png"
+         "image": "https://camo.githubusercontent.com/af96d4fca81a092790c1688304be150302f38aca/687474703a2f2f696d616765732e74686f75676874626f742e636f6d2f626f7572626f6e2f626f7572626f6e2d6c6f676f2e737667"
       },
       {
          "name":"Susy",
          "url":"http://susy.oddbird.net/",
          "description": "In a world of agile development and super-tablet-multi-magic-laptop-phones, the best layouts can’t be contained in a single framework or technique. CSS Libraries are a bloated mess of opinions about how to do your job. Why let the table-saw tell you where to put the kitchen?",
-         "tags":["grid", "library"],
-         "image": "http://susy.oddbird.net/logo.png"
+         "tags":["grid", "library"]
       },
       {
          "name":"Modular Scale",
@@ -58,14 +57,14 @@
          "url": "http://sassdoc.com/",
          "description": "SassDoc is to Sass what JSDoc is to JavaScript: a documentation system to build pretty and powerful docs in the blink of an eye. Among other things, SassDoc is: usable out of the box; highly customisable; blazingly fast; fully themable; integrated with Grunt/Gulp/Broccoli or directly Node.",
          "tags": ["docs"],
-         "image": "http://sassdoc.com/assets/images/illustration.svg"
+         "image": "https://camo.githubusercontent.com/88b1353ff92b2375e79415312da668412af6e4f1/68747470733a2f2f63646e2e7261776769742e636f6d2f53617373446f632f73617373646f632f6d61737465722f6173736574732f6865616465722e737667"
       },
       {
          "name": "Hugo Giraudel",
          "url": "http://hugogiraudel.com/",
          "description": "CSS goblin. Sass hacker. Margin psycho. Author of Sass Guidelines, SassDoc, Sass Compatibility, Browserhacks and a lot of Sass stuff.",
          "tags": ["author"],
-         "image": "http://hugogiraudel.com/images/hugo-giraudel.jpg"
+         "image": "https://avatars3.githubusercontent.com/u/1889710"
       },
       {
          "name": "Sass Reference",
@@ -92,7 +91,7 @@
          "url": "http://www.sassnews.com/",
          "description": "Sass News is a weekly newsletter edited, curated and published by Stu Robson",
          "tags": ["newsletter"],
-         "image": "http://www.sassnews.com/assets/images/logo.svg"
+         "image": "https://pbs.twimg.com/profile_images/601474911580860416/5Nfr9rwX.jpg"
       },
       {
          "name": "Sassdash",
@@ -123,8 +122,7 @@
          "name": "Outline",
          "url": "http://www.outlinecss.co.uk/",
          "description": "The clean & simple responsive framework. It's a modular, mobile-first framework which includes todays best practices for responsive design and core components I use on every project. Outline is designed to be a starting point. A solid foundation for your project, leaving the creativity up to you.",
-         "tags": ["framework", "responsive"],
-         "image": "http://www.outlinecss.co.uk/img/min/browser.png"
+         "tags": ["framework", "responsive"]
       },
       {
          "name": "sassy-validation",
@@ -150,21 +148,19 @@
          "url": "http://www.fivesimplesteps.com/products/better-css-with-sass",
          "description": "A book by Cole Henley. CSS has the dual benefit of being incredibly powerful but also very easy to learn. However, it is an incredibly forgiving and lazy language which can hide a multitude of sins. Writing good, efficient CSS can be complicated but fortunately Sass can help us out.",
          "tags": ["book"],
-         "image": "http://cdn.shopify.com/s/files/1/0067/4082/products/betterCSS_1024x1024.jpg?v=1435141703"
+         "image": "https://cdn.shopify.com/s/files/1/0067/4082/products/betterCSS_large.jpg?v=1435141703"
       },
       {
          "name": "Learning Sass with CodePen Series",
          "url": "http://blog.codepen.io/2015/02/20/dudley-storeys-learning-sass-codepen-series/",
          "description": "Mr. Dudley Storey has been blogging a series about learning Sass and making CodePen demos for the concepts along the way. It's a great way to get acquainted with the CSS preprocessor if you haven't yet. Seven parts so far!",
-         "tags": ["tutorial"],
-         "image": "http://blog.codepen.io/wp-content/uploads/2012/06/Button-Black-Large.png"
+         "tags": ["tutorial"]
       },
       {
          "name": "Sassy Sass",
          "url": "http://sassysass.com/",
          "description": "Sassy Sass is a scaffolding tool to help you organize your project’s Sass structure. With a simple command, add a well-structured architecture for your project's CSS. Based off the SMACSS methodology, SassySass creates a simple, maintainable structure for your Sass files.",
-         "tags": ["tool"],
-         "image": "http://www.sassysass.com/img/sassy-sass.svg"
+         "tags": ["tool"]
       },
       {
          "name": "sassy-exists",
@@ -215,8 +211,7 @@
          "name": "SassMe",
          "url": "http://sassme.arc90.com/",
          "description": "This is a simple web page to help designers/developers visualize a subset of the SASS color functions (lighten, darken, adjust_hue). You enter a base color, adjust the sliders to get you desired color, and the SASS functions to achieve that color are provided to you.",
-         "tags": ["color", "tool", "functions"],
-         "image": "http://sassme.arc90.com/img/sass-me-logo@2x.png"
+         "tags": ["color", "tool", "functions"]
       },
       {
          "name": "AcceCSS",
@@ -254,8 +249,7 @@
          "name": "Sass Director",
          "url": "http://sassdirector.com/",
          "description": "What Sass Director does is enable a developer to architect an entire project structure within a single manifest file. During the initial setup, instead of manually creating all of the directories and files within them, the outputted shell commands will do the job quickly.",
-         "tags": ["shell", "directories", "files"],
-         "image": "http://sassdirector.com/sass-director.svg"
+         "tags": ["shell", "directories", "files"]
       },
       {
          "name": "Sassport",
@@ -268,15 +262,13 @@
          "name": "Gridle{.scss}",
          "url": "http://gridle.org/",
          "description": "Because each grid system out there have cool features, but none of them includes all. This is why Gridle is all about...",
-         "tags": ["grid"],
-         "image": "http://gridle.org/assets/img/balrog.png"
+         "tags": ["grid"]
       },
       {
          "name": "Zurb Motion UI",
          "url": "http://zurb.com/playground/motion-ui",
          "description": "A Sass library for creating flexible CSS transitions and animations.",
-         "tags": ["library", "animations", "transitions"],
-         "image": "http://zurb.com/playground/uploads/upload/upload/409/yeti.svg"
+         "tags": ["library", "animations", "transitions"]
       },
       {
          "name": "SassBlocks",
@@ -289,21 +281,20 @@
          "url": "http://neutroncss.com/",
          "description": "A Sass framework that empowers you to create flexible, clear, and semantic website layouts.",
          "tags": ["layout", "grid", "framework"],
-         "image": "http://neutroncss.com/assets/img/logo.svg"
+         "image": "https://avatars0.githubusercontent.com/u/13657874"
       },
       {
          "name": "Takana",
          "url": "http://usetakana.com/",
          "description": "Takana is a Sass/CSS live-editor. It lets you see your SCSS and CSS style changes live, in the browser, as you type them.",
          "tags": ["editor", "live-editor"],
-         "image": "http://usetakana.com/images/takana_logo_bolt.svg"
+         "image": "https://camo.githubusercontent.com/df02c55fde52d769d745faa80c745d6242c5eb92/68747470733a2f2f7261772e6769746875622e636f6d2f6d656368696f2f74616b616e612f6d61737465722f74616b616e612e706e67"
       },
       {
          "name": "Avalanche",
          "url": "http://colourgarden.net/avalanche/",
          "description": "Superclean, powerful, responsive, Sass-based, BEM-syntax CSS grid system",
-         "tags": ["grid"],
-         "image": "http://colourgarden.net/avalanche/logo.png"
+         "tags": ["grid"]
       },
       {
          "name": "Sierra",
@@ -316,8 +307,7 @@
          "name": "Aurora Grid",
          "url": "http://themes-pixeden.com/aurora-kit/grid",
          "description": "Easy, flexible and full of responsive and mobile first features, made for designers, CSS Grid System.",
-         "tags": ["grid", "framework"],
-         "image": "http://www.pixeden.com/media/k2/items/cache/aurora-grid-css-system-M.jpg"
+         "tags": ["grid", "framework"]
       },
       {
          "name": "Buttons",
@@ -341,8 +331,7 @@
          "name": "Sassmatic",
          "url": "http://sassmatic.com/",
          "description": "A photo filter library using Sass and Compass.",
-         "tags": ["photo", "filters"],
-         "image": "http://s.cdpn.io/31787/duck.png"
+         "tags": ["photo", "filters"]
       },
       {
          "name": "Saffron",

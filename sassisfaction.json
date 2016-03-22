@@ -356,5 +356,12 @@
          "description": "Set text on the web to a baseline grid with Sass & rems using a responsive modular-scale.",
          "tags": ["text", "modular-scale", "baseline", "grid"],
          "image": "https://sassline.com/assets/img/sassline-01.svg"
+      },
+      {
+         "name": "Sunglass",
+         "url": "https://github.com/devatrox/Sunglass",
+         "description": "A mixin and functions library for Sass",
+         "tags": ["mixin", "functions", "library"],
+         "image": "https://camo.githubusercontent.com/c49424ef559dc7b5f32e9ca268edb72b95e58820/687474703a2f2f63646e2e6465766174726f782e64652f696d672f73756e676c6173732d6c6f676f2e706e67"
       }
    ]

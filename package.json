@@ -4,7 +4,8 @@
   "description": "Awesome Sass Resources",
   "main": "index.js",
   "scripts": {
-    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js"
+    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
+    "webpack": "webpack --progress --colors"
   },
   "author": "Lionel T <elrumordelaluz@hotmail.com> (elrumordelaluz.com)",
   "license": "ISC",

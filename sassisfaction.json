@@ -1,0 +1,356 @@
+[
+   {
+      "name":"Sass",
+      "url":"http://sass-lang.com/",
+      "description": "Sass is the most mature, stable, and powerful professional grade CSS extension language in the world.",
+      "tags":["framework"],
+      "image": "https://avatars0.githubusercontent.com/u/317889"
+   },
+   {
+      "name":"Compass",
+      "url":"http://compass-style.org/",
+      "description": "Compass is an open-source CSS authoring framework which uses the Sass stylesheet language to make writing stylesheets powerful and easy. If you're not familiar with Sass, Go to sass-lang.com to learn all about how it works.",
+      "tags":["framework"],
+      "image": "https://avatars0.githubusercontent.com/u/455573"
+   },
+   {
+      "name":"The Sassway",
+      "url":"http://thesassway.com/",
+      "description": "The Sass Way covers the latest news and topics on handcrafting CSS with Sass and Compass. We use an open publishing model and rely on contributions from the Sass community via our GitHub project.",
+      "tags":["articles", "news"],
+      "image": "https://avatars2.githubusercontent.com/u/882896"
+   },
+   {
+      "name":"Bourbon",
+      "url":"http://bourbon.io/",
+      "description": "A simple and lightweight mixin library for Sass",
+      "tags":["library", "mixins"],
+      "image": "https://camo.githubusercontent.com/af96d4fca81a092790c1688304be150302f38aca/687474703a2f2f696d616765732e74686f75676874626f742e636f6d2f626f7572626f6e2f626f7572626f6e2d6c6f676f2e737667"
+   },
+   {
+      "name":"Susy",
+      "url":"http://susy.oddbird.net/",
+      "description": "In a world of agile development and super-tablet-multi-magic-laptop-phones, the best layouts can’t be contained in a single framework or technique. CSS Libraries are a bloated mess of opinions about how to do your job. Why let the table-saw tell you where to put the kitchen?",
+      "tags":["grid", "library"]
+   },
+   {
+      "name":"Modular Scale",
+      "url": "https://github.com/modularscale/modularscale-sass",
+      "description": "Sassy Modular Scale is a Sass-based mixin that calculates the incremental values of the modular scale in proportion to a set size and ratio. It was inspired by and adapted from Tim Brown's Modular Scale, and can be used as a Compass Extension or installed as a Ruby gem. Included are functions for a number of classic design and musical scale ratios, with the ability to add your own ratios, as well.",
+      "tags":["grid", "library"]
+   },
+   {
+      "name": "Bootstrap Sass",
+      "url": "https://github.com/twbs/bootstrap-sass",
+      "description": "Bootstrap Sass is a Sass-powered version of Twitter's Bootstrap, ready to drop right into your Sass-powered projects. Installation is straightforward: Set up your Ruby On Rails installation, import Bootstrap in an SCSS file to get of all Bootstrap's styles, mixins and variables, then include Bootstrap's JavaScript files.",
+      "tags": ["framework"],
+      "image": "https://www.fasttracksites.com/wp-content/uploads/2013/08/bootstrap-logo.png"
+   },
+   {
+      "name": "Sass Guidelines",
+      "url": "http://sass-guidelin.es/",
+      "description": "An opinionated styleguide for writing sane, maintainable and scalable Sass by Hugo Giraudel.",
+      "tags": ["guide"]
+   },
+   {
+      "name": "SassDoc",
+      "url": "http://sassdoc.com/",
+      "description": "SassDoc is to Sass what JSDoc is to JavaScript: a documentation system to build pretty and powerful docs in the blink of an eye. Among other things, SassDoc is: usable out of the box; highly customisable; blazingly fast; fully themable; integrated with Grunt/Gulp/Broccoli or directly Node.",
+      "tags": ["docs"],
+      "image": "https://camo.githubusercontent.com/88b1353ff92b2375e79415312da668412af6e4f1/68747470733a2f2f63646e2e7261776769742e636f6d2f53617373446f632f73617373646f632f6d61737465722f6173736574732f6865616465722e737667"
+   },
+   {
+      "name": "Hugo Giraudel",
+      "url": "http://hugogiraudel.com/",
+      "description": "CSS goblin. Sass hacker. Margin psycho. Author of Sass Guidelines, SassDoc, Sass Compatibility, Browserhacks and a lot of Sass stuff.",
+      "tags": ["author"],
+      "image": "https://avatars3.githubusercontent.com/u/1889710"
+   },
+   {
+      "name": "Sass Reference",
+      "url": "http://www.sitepoint.com/sass-reference/",
+      "description": "An attempt at making Sass more approachable by providing short yet insightful entries for all buzzwords.",
+      "tags": ["guide"]
+   },
+   {
+      "name": "Sass Bites Podcast",
+      "url": "https://www.youtube.com/channel/UCOFsG9Tbs7Aga9n7Smify0A",
+      "description": "A weekly bite of Sass during your lunch break..",
+      "tags": ["podcast"],
+      "image": "https://yt3.ggpht.com/-p71ZA1BEf1I/AAAAAAAAAAI/AAAAAAAAAAA/nOlmgcNNZpo/s100-c-k-no/photo.jpg"
+   },
+   {
+      "name": "SassMeister",
+      "url": "http://sassmeister.com/",
+      "description": "SassMeister is a playground for Sass, Compass, and LibSass. Add some Sass and SassMeister will show you the rendered CSS. SassMeister supports both Sass and SCSS syntaxes, all output styles, and an ever-expanding list of Compass extensions and Sass libraries.",
+      "tags": ["editor"],
+      "image": "https://d21ii91i3y6o6h.cloudfront.net/gallery_images/from_proof/2436/large/1415129216/sassmeister-dot-com-stickers.png"
+   },
+   {
+      "name": "Sass News",
+      "url": "http://www.sassnews.com/",
+      "description": "Sass News is a weekly newsletter edited, curated and published by Stu Robson",
+      "tags": ["newsletter"],
+      "image": "https://pbs.twimg.com/profile_images/601474911580860416/5Nfr9rwX.jpg"
+   },
+   {
+      "name": "Sassdash",
+      "url": "https://github.com/davidkpiano/sassdash",
+      "description": "Sassdash is lodash for Sass -- the largest collection of well-tested utility functions for maps, lists, strings, numbers, and more. Works with both node-sass (LibSass) and Ruby Sass, with no extra dependencies.",
+      "tags": ["utility", "functions", "library"],
+      "image": "https://raw.githubusercontent.com/davidkpiano/sassdash/master/sassdash.png"
+   },
+   {
+      "name": "scss-lint",
+      "url": "https://github.com/brigade/scss-lint",
+      "description": "Configurable tool for writing clean and consistent SCSS.",
+      "tags": ["utility", "lint"]
+   },
+   {
+      "name": "vary",
+      "url": "http://jaicab.com/sass-vary/",
+      "description": "Sass theming made easy. The vary mixin is the most flexible, scalable and modular Sass theming solution out there.",
+      "tags": ["mixin", "theming"]
+   },
+   {
+      "name": "Frame Based Animation",
+      "url": "https://github.com/Heydon/frame-based-animation",
+      "description": "A Sass @mixin for creating traditional frame-based animations, especially with SVG. Think gifs, but scalable and with more control over combining animations together.",
+      "tags": ["mixin", "animation"]
+   },
+   {
+      "name": "Outline",
+      "url": "http://www.outlinecss.co.uk/",
+      "description": "The clean & simple responsive framework. It's a modular, mobile-first framework which includes todays best practices for responsive design and core components I use on every project. Outline is designed to be a starting point. A solid foundation for your project, leaving the creativity up to you.",
+      "tags": ["framework", "responsive"]
+   },
+   {
+      "name": "sassy-validation",
+      "url": "https://github.com/Skoks/sassy-validation/",
+      "description": "Sass data type validation library. Sassy-validation is a handy addition for every Sass project which uses @functions and/or @mixins.",
+      "tags": ["utility"]
+   },
+   {
+      "name": "Rebar Grid Framework",
+      "url": "http://rebar.io/",
+      "description": "Rebar is a Sass / Stylus grid framework that makes responsive development more efficient and keeps CSS organised.",
+      "tags": ["grid", "framework"]
+   },
+   {
+      "name": "Scally",
+      "url": "https://github.com/chris-pearce/scally",
+      "description": "Scally is a Sass-based, BEM, OOCSS, responsive ready, CSS framework that provides you with a solid foundation for building reusable UI's quickly.",
+      "tags": ["framework", "responsive"],
+      "image": "https://pbs.twimg.com/profile_images/559439238278549505/8OFfttoY.png"
+   },
+   {
+      "name": "Better CSS with Sass",
+      "url": "http://www.fivesimplesteps.com/products/better-css-with-sass",
+      "description": "A book by Cole Henley. CSS has the dual benefit of being incredibly powerful but also very easy to learn. However, it is an incredibly forgiving and lazy language which can hide a multitude of sins. Writing good, efficient CSS can be complicated but fortunately Sass can help us out.",
+      "tags": ["book"],
+      "image": "https://cdn.shopify.com/s/files/1/0067/4082/products/betterCSS_large.jpg?v=1435141703"
+   },
+   {
+      "name": "Learning Sass with CodePen Series",
+      "url": "http://blog.codepen.io/2015/02/20/dudley-storeys-learning-sass-codepen-series/",
+      "description": "Mr. Dudley Storey has been blogging a series about learning Sass and making CodePen demos for the concepts along the way. It's a great way to get acquainted with the CSS preprocessor if you haven't yet. Seven parts so far!",
+      "tags": ["tutorial"]
+   },
+   {
+      "name": "Sassy Sass",
+      "url": "http://sassysass.com/",
+      "description": "Sassy Sass is a scaffolding tool to help you organize your project’s Sass structure. With a simple command, add a well-structured architecture for your project's CSS. Based off the SMACSS methodology, SassySass creates a simple, maintainable structure for your Sass files.",
+      "tags": ["tool"]
+   },
+   {
+      "name": "sassy-exists",
+      "url": "https://github.com/Skoks/sassy-exists/",
+      "description": "Sass micro library for existence checks. Handy addition for every Sass project which can't afford to have any doubts.",
+      "tags": ["tool"]
+   },
+   {
+      "name": "sass-mq",
+      "url": "https://github.com/sass-mq/sass-mq",
+      "description": "Media Queries with superpowers. mq() is a Sass mixin that helps you compose media queries in an elegant way.",
+      "tags": ["mixin", "responsive"],
+      "image": "https://avatars3.githubusercontent.com/u/9341289?v=3&s=300"
+   },
+   {
+      "name": "sass-maps-plus",
+      "url": "https://github.com/lunelson/sass-maps-plus",
+      "description": "Advanced map and list-map functions for all versions of Sass. They provide advanced native map data-type manipulation and inspection in libsass (as of version 3.1) and ruby-sass (as of version 3.3).",
+      "tags": ["functions"],
+      "image": "https://raw.githubusercontent.com/lunelson/sass-maps-plus/master/sass-hash-plus.jpg"
+   },
+   {
+      "name": "include-media",
+      "url": "http://include-media.com",
+      "description": "Simple, elegant and maintainable media queries in Sass",
+      "tags": ["breakpoints", "responsive", "media"],
+      "image": "https://camo.githubusercontent.com/d6b67d6f8258b19d5011dec32f0aa85a2196fd94/687474703a2f2f696e636c7564652d6d656469612e636f6d2f6173736574732f696d616765732f6c6f676f2e706e67"
+   },
+   {
+      "name": "sass-boilerplate",
+      "url": "https://github.com/HugoGiraudel/sass-boilerplate",
+      "description": "A boilerplate for Sass projects using the 7-1 architecture pattern by Hugo Giraudel.",
+      "tags": ["boilerplate"]
+   },
+   {
+      "name": "Sass MediaQueries",
+      "url": "http://paranoida.github.io/sass-mediaqueries/",
+      "description": "It's a collection of useful Media Queries mixins for Sass (including iOS devices, TVs and more). Fully customizable and very easy to use.",
+      "tags": ["mixin", "responsive", "media queries"]
+   },
+   {
+      "name": "SystemJS Sass plugin",
+      "url": "https://github.com/theefer/plugin-sass",
+      "description": "A Sass loader plugin for SystemJS, based on sass.js. This plugin allows importing SCSS files from SystemJS and have them dynamically compiled to CSS and loaded into the page from within the browser. Alternatively, the SCSS files can also be converted to CSS statically by creating bundles with JSPM.",
+      "tags": ["js", "plugin"]
+   },
+   {
+      "name": "SassMe",
+      "url": "http://sassme.arc90.com/",
+      "description": "This is a simple web page to help designers/developers visualize a subset of the SASS color functions (lighten, darken, adjust_hue). You enter a base color, adjust the sliders to get you desired color, and the SASS functions to achieve that color are provided to you.",
+      "tags": ["color", "tool", "functions"]
+   },
+   {
+      "name": "AcceCSS",
+      "url": "http://lukyvj.github.io/accecss/",
+      "description": "A Sass mixin that debugs & checks the accessibility of your designs. This mixin will allow you to get an overview of all the zones of your layout, get a grascaled version to check the contrast, as well as 8 different filters to emulate the most common coloblindness types.",
+      "tags": ["mixin", "accessibility"]
+   },
+   {
+      "name": "Sassaby",
+      "url": "https://github.com/ryanbahniuk/sassaby",
+      "description": "Sassaby is a unit testing library for SASS mixins and functions. It is written in Node to provide a consistent interface with other front-end tests in your system and for easy integration into a build system. Its interface can be used with any Node testing library (Mocha, Jasmine, etc.).",
+      "tags": ["test", "mixin", "functions"],
+      "image": "https://raw.githubusercontent.com/ryanbahniuk/sassaby/master/logo.png"
+   },
+   {
+      "name": "css2sass",
+      "url": "http://css2sass.herokuapp.com/",
+      "description": "Convert CSS Snippets to Syntactically Awesome StyleSheets code.",
+      "tags": ["editor"]
+   },
+   {
+      "name": "PreCSS",
+      "url": "https://github.com/jonathantneal/precss",
+      "description": "PreCSS is a tool that allows you to use Sass-like markup in your CSS files. Enjoy a familiar syntax with variables, mixins, conditionals, and other goodies.",
+      "tags": ["editor", "syntax"],
+      "image": "https://camo.githubusercontent.com/cd96d50387a761a212168e21565c18e6c07b27bc/68747470733a2f2f692e696d6775722e636f6d2f7a78784e334f582e706e67"
+   },
+   {
+      "name": "Sass Colour Function Calculator",
+      "url": "http://razorjam.github.io/sasscolourfunctioncalculator/",
+      "description": "A tool for calculating the Sass colour function required to get from one colour to another.",
+      "tags": ["color", "function"]
+   },
+   {
+      "name": "Sass Director",
+      "url": "http://sassdirector.com/",
+      "description": "What Sass Director does is enable a developer to architect an entire project structure within a single manifest file. During the initial setup, instead of manually creating all of the directories and files within them, the outputted shell commands will do the job quickly.",
+      "tags": ["shell", "directories", "files"]
+   },
+   {
+      "name": "Sassport",
+      "url": "https://github.com/davidkpiano/sassport",
+      "description": "JavaScript modules for Sass (node-sass). Easily share assets, and JavaScript functions and values in your Sass projects.",
+      "tags": ["js", "modules"],
+      "image": "https://raw.githubusercontent.com/davidkpiano/sassport/master/sassport-sm.png"
+   },
+   {
+      "name": "Gridle{.scss}",
+      "url": "http://gridle.org/",
+      "description": "Because each grid system out there have cool features, but none of them includes all. This is why Gridle is all about...",
+      "tags": ["grid"]
+   },
+   {
+      "name": "Zurb Motion UI",
+      "url": "http://zurb.com/playground/motion-ui",
+      "description": "A Sass library for creating flexible CSS transitions and animations.",
+      "tags": ["library", "animations", "transitions"]
+   },
+   {
+      "name": "SassBlocks",
+      "url": "https://github.com/djfarly/sass-blocks",
+      "description": "SassBlocks introduces a pattern to make working with bem-blocks/modules in Sass/Scss a little more oop.",
+      "tags": ["bem", "function", "pattern"]
+   },
+   {
+      "name": "Neutron CSS",
+      "url": "http://neutroncss.com/",
+      "description": "A Sass framework that empowers you to create flexible, clear, and semantic website layouts.",
+      "tags": ["layout", "grid", "framework"],
+      "image": "https://avatars0.githubusercontent.com/u/13657874"
+   },
+   {
+      "name": "Takana",
+      "url": "http://usetakana.com/",
+      "description": "Takana is a Sass/CSS live-editor. It lets you see your SCSS and CSS style changes live, in the browser, as you type them.",
+      "tags": ["editor", "live-editor"],
+      "image": "https://camo.githubusercontent.com/df02c55fde52d769d745faa80c745d6242c5eb92/68747470733a2f2f7261772e6769746875622e636f6d2f6d656368696f2f74616b616e612f6d61737465722f74616b616e612e706e67"
+   },
+   {
+      "name": "Avalanche",
+      "url": "http://colourgarden.net/avalanche/",
+      "description": "Superclean, powerful, responsive, Sass-based, BEM-syntax CSS grid system",
+      "tags": ["grid"]
+   },
+   {
+      "name": "Sierra",
+      "url": "https://sierra-library.github.io/",
+      "description": "Superclean, powerful, responsive, Sass-based, BEM-syntax CSS grid system",
+      "tags": ["framework", "library"],
+      "image": "https://sierra-library.github.io/img/logo.png"
+   },
+   {
+      "name": "Aurora Grid",
+      "url": "http://themes-pixeden.com/aurora-kit/grid",
+      "description": "Easy, flexible and full of responsive and mobile first features, made for designers, CSS Grid System.",
+      "tags": ["grid", "framework"]
+   },
+   {
+      "name": "Buttons",
+      "url": "http://unicorn-ui.com/buttons/",
+      "description": "A highly customizable production ready mobile web and desktop css button library. Buttons is free and open source.",
+      "tags": ["buttons"]
+   },
+   {
+      "name": "Typesettings",
+      "url": "http://typesettings.io/",
+      "description": "A Sass or Stylus toolkit that sets type in Ems based on modular scale, vertical rhythm, and responsive ratio based headlines.",
+      "tags": ["type", "toolkit"]
+   },
+   {
+      "name": "Scut",
+      "url": "http://typesettings.io/",
+      "description": "A collection of Sass utilities to ease and improve our implementations of common style-code patterns.",
+      "tags": ["utilities", "patterns"]
+   },
+   {
+      "name": "Sassmatic",
+      "url": "http://sassmatic.com/",
+      "description": "A photo filter library using Sass and Compass.",
+      "tags": ["photo", "filters"]
+   },
+   {
+      "name": "Saffron",
+      "url": "http://colindresj.github.io/saffron/",
+      "description": "A simple Sass mixin library for animations and transitions.",
+      "tags": ["mixins", "animations", "transitions"]
+   },
+   {
+      "name": "Sassline",
+      "url": "https://sassline.com/",
+      "description": "Set text on the web to a baseline grid with Sass & rems using a responsive modular-scale.",
+      "tags": ["text", "modular-scale", "baseline", "grid"],
+      "image": "https://sassline.com/assets/img/sassline-01.svg"
+   },
+   {
+      "name": "Sunglass",
+      "url": "https://github.com/devatrox/Sunglass",
+      "description": "A mixin and functions library for Sass",
+      "tags": ["mixin", "functions", "library"],
+      "image": "https://camo.githubusercontent.com/c49424ef559dc7b5f32e9ca268edb72b95e58820/687474703a2f2f63646e2e6465766174726f782e64652f696d672f73756e676c6173732d6c6f676f2e706e67"
+   }
+]

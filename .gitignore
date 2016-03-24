@@ -1,6 +1,5 @@
-node_modules
+/node_modules
 .tmp
 .sass-cache
-bower_components
-src/components
-dist
+bundle.js
+npm-debug.log

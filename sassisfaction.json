@@ -323,7 +323,7 @@
       },
       {
          "name": "Scut",
-         "url": "http://typesettings.io/",
+         "url": "https://davidtheclark.github.io/scut/",
          "description": "A collection of Sass utilities to ease and improve our implementations of common style-code patterns.",
          "tags": ["utilities", "patterns"]
       },

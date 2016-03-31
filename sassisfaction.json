@@ -352,5 +352,17 @@
          "description": "A mixin and functions library for Sass",
          "tags": ["mixin", "functions", "library"],
          "image": "https://camo.githubusercontent.com/c49424ef559dc7b5f32e9ca268edb72b95e58820/687474703a2f2f63646e2e6465766174726f782e64652f696d672f73756e676c6173732d6c6f676f2e706e67"
+      },
+      {
+         "name": "Typi",
+         "url": "https://github.com/zellwk/typi",
+         "description": "A sass mixin to make responsive typography easy",
+         "tags": ["mixin", "type", "responsive"]
+      },
+      {
+         "name": "Mappy Breakpoints",
+         "url": "https://github.com/zellwk/mappy-breakpoints",
+         "description": "A Breakpoint Mixin that uses Sass Maps",
+         "tags": ["mixin", "breakpoints", "responsive", "maps"]
       }
    ]

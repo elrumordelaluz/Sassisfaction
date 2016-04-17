@@ -364,5 +364,11 @@
          "url": "https://github.com/zellwk/mappy-breakpoints",
          "description": "A Breakpoint Mixin that uses Sass Maps",
          "tags": ["mixin", "breakpoints", "responsive", "maps"]
+      },
+      {
+         "name": "SassyTester",
+         "url": "https://github.com/HugoGiraudel/SassyTester",
+         "description": "A minimalistic function tester in Sass.",
+         "tags": ["function", "test"]
       }
    ]

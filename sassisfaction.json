@@ -370,5 +370,12 @@
          "url": "https://github.com/HugoGiraudel/SassyTester",
          "description": "A minimalistic function tester in Sass.",
          "tags": ["function", "test"]
+      },
+      {
+         "name": "sass-gulp-svg-sprite",
+         "url": "https://github.com/liquidlight/sass-gulp-svg-sprite",
+         "description": "Creating SVG Sprites using Gulp and Sass.",
+         "tags": ["svg", "sprite", "gulp"],
+         "image": "https://camo.githubusercontent.com/378c32003fef4a4028debed1534bd4ae3315602b/68747470733a2f2f7777772e6c69717569646c696768742e636f2e756b2f66696c6561646d696e2f5f70726f6365737365645f2f63736d5f7376672d7370726974652d76325f366138316664353337662e706e67"
       }
    ]

@@ -104,7 +104,8 @@
          "name": "scss-lint",
          "url": "https://github.com/brigade/scss-lint",
          "description": "Configurable tool for writing clean and consistent SCSS.",
-         "tags": ["utility", "lint"]
+         "tags": ["utility", "lint"],
+         "image": "https://raw.githubusercontent.com/brigade/scss-lint/master/logo/horizontal.png"
       },
       {
          "name": "vary",
@@ -383,5 +384,24 @@
          "url": "https://github.com/nabaroa/fromSassToPostCSS",
          "description": "A gulpfile to take the plunge from Sass to PostCSS.",
          "tags": ["PostCSS", "gulp"]
+      },
+      {
+         "name": "Sassquatch",
+         "url": "http://sassquatch.thoughtbot.com/",
+         "description": "Zero-Setup Sass Previewer for OS X.",
+         "tags": ["OSX", "editor", "previewer"]
+      },
+      {
+         "name": "sass-lint",
+         "url": "https://github.com/sasstools/sass-lint",
+         "description": "A Node-only Sass linter for both sass and scss syntax!",
+         "tags": ["lint", "utility"]
+      },
+      {
+         "name": "grunt-sassyclean",
+         "url": "https://github.com/ryanburgess/grunt-sassyclean",
+         "description": "Sassy Clean scans a project for partials that are never imported.",
+         "tags": ["grunt", "utility", "clean"],
+         "image": "https://camo.githubusercontent.com/a59fe8768a597d033a9cef240c35ec84f4c02680/68747470733a2f2f7261772e6769746875622e636f6d2f7279616e627572676573732f6772756e742d7361737379636c65616e2f6d61737465722f7361737379636c65616e2e706e67"
       }
    ]

@@ -403,5 +403,11 @@
          "description": "Sassy Clean scans a project for partials that are never imported.",
          "tags": ["grunt", "utility", "clean"],
          "image": "https://camo.githubusercontent.com/a59fe8768a597d033a9cef240c35ec84f4c02680/68747470733a2f2f7261772e6769746875622e636f6d2f7279616e627572676573732f6772756e742d7361737379636c65616e2f6d61737465722f7361737379636c65616e2e706e67"
+      },
+      {
+         "name": "Family.scss",
+         "url": "https://lukyvj.github.io/family.scss/",
+         "description": "A set of 20 smart Sass mixins which will help you to manage the style of :nth-child'ified elements, in an easy and classy way.",
+         "tags": ["mixins", "nth-child"]
       }
    ]

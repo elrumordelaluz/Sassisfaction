@@ -409,5 +409,12 @@
          "url": "https://lukyvj.github.io/family.scss/",
          "description": "A set of 20 smart Sass mixins which will help you to manage the style of :nth-child'ified elements, in an easy and classy way.",
          "tags": ["mixins", "nth-child"]
+      },
+      {
+         "name": "Top 10 scss mixins",
+         "url": "http://engageinteractive.co.uk/blog/top-10-scss-mixins",
+         "description": "10 Sass (SCSS) mixins you should be using in your projects",
+         "tags": ["mixins"],
+         "image": "https://engage-site-cms.s3.amazonaws.com/production/engage-interactive/cms/processed/42be02bfd8d80e14bd7bbb0317dbe5f1.jpg"
       }
    ]

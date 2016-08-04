@@ -209,12 +209,6 @@
          "tags": ["js", "plugin"]
       },
       {
-         "name": "SassMe",
-         "url": "http://sassme.arc90.com/",
-         "description": "This is a simple web page to help designers/developers visualize a subset of the SASS color functions (lighten, darken, adjust_hue). You enter a base color, adjust the sliders to get you desired color, and the SASS functions to achieve that color are provided to you.",
-         "tags": ["color", "tool", "functions"]
-      },
-      {
          "name": "AcceCSS",
          "url": "http://lukyvj.github.io/accecss/",
          "description": "A Sass mixin that debugs & checks the accessibility of your designs. This mixin will allow you to get an overview of all the zones of your layout, get a grascaled version to check the contrast, as well as 8 different filters to emulate the most common coloblindness types.",

@@ -435,5 +435,12 @@
          "url": "https://github.com/hiulit/Sassy-Gridlover",
          "description": "Super easy to use Sass mixins to establish a typographic system with modular scale and vertical rhythm. Based on the Gridlover app.",
          "tags": ["modularscale", "typography"]
+      },
+      {
+         "name": "mini.css",
+         "url": "https://chalarangelo.github.io/mini.css/",
+         "description": "A minimal Sass-y responsive mobile-first style-agnostic CSS framework.",
+         "tags": ["framework", "mobile-first"],
+         "image": "https://chalarangelo.github.io/mini.css/favicon.png"
       }
    ]

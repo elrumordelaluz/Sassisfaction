@@ -442,5 +442,12 @@
          "description": "A minimal Sass-y responsive mobile-first style-agnostic CSS framework.",
          "tags": ["framework", "mobile-first"],
          "image": "https://chalarangelo.github.io/mini.css/favicon.png"
+      },
+      {
+         "name": "Sprite Spirit",
+         "url": "https://eliorshalev.github.io/sprite-spirit/",
+         "description": "SCSS Mixin that Brings Image Sprite to life.",
+         "tags": ["mixin", "image", "sprite"],
+         "image": "https://cdn.rawgit.com/eliorshalev/sprite-spirit/master/sprite-spirit.gif"
       }
    ]

@@ -449,5 +449,11 @@
          "description": "SCSS Mixin that Brings Image Sprite to life.",
          "tags": ["mixin", "image", "sprite"],
          "image": "https://cdn.rawgit.com/eliorshalev/sprite-spirit/master/sprite-spirit.gif"
+      },
+      {
+         "name": "Sass Magic",
+         "url": "http://w3cplus.github.io/SassMagic/",
+         "description": "A collection of Sass mixins and functions to improve our implementations of style-code patterns.",
+         "tags": ["mixins", "functions"]
       }
    ]

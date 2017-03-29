@@ -466,6 +466,6 @@
          "name": "font-face-generator",
          "url": "https://github.com/Dan503/font-face-generator",
          "description": "An @font-face code generator for SCSS.",
-         "tags": ["generator", "@font-face"],
+         "tags": ["generator", "@font-face"]
       }
    ]

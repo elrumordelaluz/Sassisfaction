@@ -455,5 +455,11 @@
          "url": "http://w3cplus.github.io/SassMagic/",
          "description": "A collection of Sass mixins and functions to improve our implementations of style-code patterns.",
          "tags": ["mixins", "functions"]
+      },
+      {
+         "name": "mq-scss",
+         "url": "https://github.com/Dan503/mq-scss",
+         "description": "An extreamly powerful but easy to use Sass media query mixin.",
+         "tags": ["mixins", "media query"]
       }
    ]

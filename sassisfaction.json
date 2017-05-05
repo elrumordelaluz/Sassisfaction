@@ -460,12 +460,12 @@
          "name": "mq-scss",
          "url": "https://github.com/Dan503/mq-scss",
          "description": "An extreamly powerful but easy to use Sass media query mixin.",
-         "tags": ["mixins", "media query"]
+         "tags": ["mixin", "media queries", "responsive", "breakpoints"]
       },
       {
          "name": "font-face-generator",
          "url": "https://github.com/Dan503/font-face-generator",
          "description": "An @font-face code generator for SCSS.",
-         "tags": ["generator", "@font-face"]
+         "tags": ["mixin", "@font-face"]
       }
    ]

@@ -473,6 +473,6 @@
          "url":"https://github.com/jotavejv/css-sass-debugger",
          "description": "This scss file provides a way to debug your project with a visual highlight style preview based in some options that you can customize.",
          "tags":["scss", "debug"],
-         "image": "https://github.com/jotavejv/css-sass-debugger/blob/master/demo1.gif"
+         "image": "https://raw.githubusercontent.com/jotavejv/css-sass-debugger/47309845/demo1.gif"
       }
    ]

@@ -1,5 +1,5 @@
 {
-  "name": "Sassisfaction",
+  "name": "sassisfaction",
   "version": "1.5.0",
   "description": "Awesome Sass Resources",
   "main": "index.js",
@@ -24,7 +24,7 @@
   "dependencies": {
     "babel-preset-stage-1": "^6.1.18",
     "isomorphic-fetch": "^2.2.1",
-    "react": "^0.14.3",
-    "react-dom": "^0.14.3"
+    "react": "16.8.6",
+    "react-dom": "16.8.6"
   }
 }
